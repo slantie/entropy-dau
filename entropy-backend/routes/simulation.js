@@ -18,104 +18,54 @@ function serializeBigInt(obj) {
 }
 
 function convertToMLFeatures(txn) {
+  // Model expects exactly these 29 features in this order:
+  // ["sender_account", "receiver_account", "time_since_last_transaction", "spending_deviation_score",
+  //  "velocity_score", "geo_anomaly_score", "amount_ngn", "txn_hour", "is_weekend", "is_salary_week",
+  //  "is_night_txn", "device_seen_count", "is_device_shared", "ip_seen_count", "is_ip_shared",
+  //  "user_txn_count_total", "user_avg_txn_amt", "user_std_txn_amt", "user_txn_frequency_24h",
+  //  "txn_count_last_1h", "txn_count_last_24h", "total_amount_last_1h", "time_since_last",
+  //  "avg_gap_between_txns", "merchant_fraud_rate", "channel_risk_score", "persona_fraud_risk",
+  //  "location_fraud_risk", "no_prev_txn"]
+
+  // Calculate no_prev_txn: 1 if this is the first transaction (no previous transaction data)
+  const noPrevTxn =
+    txn.timeSinceLastTransaction === null ||
+    txn.timeSinceLastTransaction === undefined ||
+    txn.userTxnCountTotal === 0
+      ? 1
+      : 0;
+
   const features = {
-    amount_ngn: txn.amountNgn || 0,
+    sender_account: Number(txn.senderAccount) || 0,
     receiver_account: Number(txn.receiverAccount) || 0,
-
-    txn_hour: txn.txnHour || 0,
-    txn_dayofweek: 0,
-    is_weekend: txn.isWeekend ? 1 : 0,
-    is_salary_week: txn.isSalaryWeek ? 1 : 0,
-    is_night_txn: txn.isNightTxn ? 1 : 0,
-
-    location: txn.location || 0,
-    device_used: txn.deviceUsed || 0,
-    ip_geo_region: txn.ipGeoRegion || 0,
-
     time_since_last_transaction: txn.timeSinceLastTransaction || 0,
-    time_since_last: txn.timeSinceLast || 0,
-    avg_gap_between_txns: txn.avgGapBetweenTxns || 0,
-
     spending_deviation_score: txn.spendingDeviationScore || 0,
     velocity_score: txn.velocityScore || 0,
     geo_anomaly_score: txn.geoAnomalyScore || 0,
-
+    amount_ngn: txn.amountNgn || 0,
+    txn_hour: txn.txnHour || 0,
+    is_weekend: txn.isWeekend ? 1 : 0,
+    is_salary_week: txn.isSalaryWeek ? 1 : 0,
+    is_night_txn: txn.isNightTxn ? 1 : 0,
     device_seen_count: txn.deviceSeenCount || 0,
     is_device_shared: txn.isDeviceShared ? 1 : 0,
     ip_seen_count: txn.ipSeenCount || 0,
     is_ip_shared: txn.isIpShared ? 1 : 0,
-    new_device_transaction: txn.newDeviceTransaction ? 1 : 0,
-
     user_txn_count_total: txn.userTxnCountTotal || 0,
     user_avg_txn_amt: txn.userAvgTxnAmt || 0,
     user_std_txn_amt: txn.userStdTxnAmt || 0,
     user_txn_frequency_24h: txn.userTxnFrequency24h || 0,
-
     txn_count_last_1h: txn.txnCountLast1h || 0,
     txn_count_last_24h: txn.txnCountLast24h || 0,
     total_amount_last_1h: txn.totalAmountLast1h || 0,
-
+    time_since_last: txn.timeSinceLast || 0,
+    avg_gap_between_txns: txn.avgGapBetweenTxns || 0,
     merchant_fraud_rate: txn.merchantFraudRate || 0,
     channel_risk_score: txn.channelRiskScore || 0,
     persona_fraud_risk: txn.personaFraudRisk || 0,
     location_fraud_risk: txn.locationFraudRisk || 0,
-
-    bvn_linked: txn.bvnLinked ? 1 : 0,
-
-    transaction_type_payment: txn.transactionType === "payment" ? 1 : 0,
-    transaction_type_withdrawal: txn.transactionType === "withdrawal" ? 1 : 0,
-    transaction_type_transfer: txn.transactionType === "transfer" ? 1 : 0,
-
-    payment_channel_Mobile_App: txn.paymentChannel === "Mobile App" ? 1 : 0,
-    payment_channel_Card: txn.paymentChannel === "Card" ? 1 : 0,
-    payment_channel_USSD: txn.paymentChannel === "USSD" ? 1 : 0,
-
-    merchant_category_Other_Transaction:
-      txn.merchantCategory === "Other Transaction" ? 1 : 0,
-    merchant_category_SPAR_Purchase:
-      txn.merchantCategory === "SPAR Purchase" ? 1 : 0,
-
-    sender_persona_Student: txn.senderPersona === "Student" ? 1 : 0,
-    sender_persona_Trader: txn.senderPersona === "Trader" ? 1 : 0,
-
-    user_top_category_Other_Transaction:
-      txn.userTopCategory === "Other Transaction" ? 1 : 0,
-    user_top_category_ATM_Withdrawal:
-      txn.userTopCategory === "ATM Withdrawal" ? 1 : 0,
-    user_top_category_Bet9ja_Stake:
-      txn.userTopCategory === "Bet9ja Stake" ? 1 : 0,
-    user_top_category_Airtime_Top_up_MTN: txn.userTopCategory?.includes(
-      "Airtime"
-    )
-      ? 1
-      : 0,
-    user_top_category_Arik_Air_Flight: txn.userTopCategory?.includes("Arik")
-      ? 1
-      : 0,
+    no_prev_txn: noPrevTxn,
   };
-
-  features.composite_anomaly =
-    ((features.spending_deviation_score || 0) +
-      (features.geo_anomaly_score || 0) +
-      (features.velocity_score || 0)) /
-    3;
-
-  features.amount_zscore =
-    features.user_std_txn_amt > 0
-      ? (features.amount_ngn - features.user_avg_txn_amt) /
-        features.user_std_txn_amt
-      : 0;
-
-  features.velocity_anomaly =
-    features.user_txn_frequency_24h > 0
-      ? features.txn_count_last_1h / (features.user_txn_frequency_24h + 1)
-      : 0;
-
-  features.sharing_risk =
-    (features.is_device_shared || 0) + (features.is_ip_shared || 0);
-
-  features.risk_night_interaction =
-    (features.channel_risk_score || 0) * (features.is_night_txn || 0);
 
   return features;
 }

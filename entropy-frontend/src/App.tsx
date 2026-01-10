@@ -18,10 +18,13 @@ import { DatabaseIcon, TrendingUpIcon } from "lucide-react"
 function AppSidebar({ activeTab, setActiveTab }: { activeTab: string; setActiveTab: (tab: string) => void }) {
   return (
     <Sidebar>
-      <SidebarHeader className="p-4 border-b">
+      <SidebarHeader className="p-4 flex flex-row border-b">
+        <div className="bg-blue-200 h-full w-12 flex items-center justify-center rounded-md">
+          <img src="entropy.png" alt="Entropy Logo" className="h-8 w-8" />
+        </div>
         <div className="flex flex-col space-y-1">
           <h1 className="text-lg font-bold">Entropy</h1>
-          <p className="text-xs text-muted-foreground">Fraud Detection</p>
+          <p className="text-xs text-muted-foreground">Real-time Fraud Detection</p>
         </div>
       </SidebarHeader>
       <SidebarContent className="p-4">
@@ -63,10 +66,10 @@ export function App() {
           <header className="border-b sticky top-0 z-10 bg-background">
             <div className="flex items-center gap-4 px-6 py-4">
               <SidebarTrigger className="-ml-1" />
-              <Separator orientation="vertical" className="h-6" />
+              <Separator orientation="vertical" className="h-12" />
               <div>
-                <h1 className="text-2xl font-bold tracking-tight">Entropy Fraud Detection</h1>
-                <p className="text-sm text-muted-foreground">Financial Transaction Analysis System</p>
+                <h1 className="text-xl font-bold tracking-tight">Fraud Detection</h1>
+                <p className="text-xs text-muted-foreground">Financial Transaction Analysis System</p>
               </div>
             </div>
           </header>
