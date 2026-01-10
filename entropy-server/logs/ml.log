@@ -1,0 +1,61 @@
+2026-01-10 06:05:36,180 - config - INFO - ============================================================
+2026-01-10 06:05:36,184 - config - INFO - Loading dataset...
+2026-01-10 06:06:19,639 - config - INFO - Subsampled to 100,000 rows
+2026-01-10 06:06:19,653 - config - INFO - Loaded: 100,000 rows, 45 cols | Fraud rate: 3.60%
+2026-01-10 06:06:19,654 - config - INFO -    Loaded 100,000 rows
+2026-01-10 06:06:19,655 - config - INFO -    Fraud rate: 3.60%
+2026-01-10 06:06:19,667 - config - INFO - Starting preprocessing...
+2026-01-10 06:06:19,818 - config - INFO - Extracted temporal feats & dropped timestamp
+2026-01-10 06:06:19,828 - config - INFO - Converted 4 bool cols to int
+2026-01-10 06:06:20,234 - config - INFO - Processed 32 numeric cols
+2026-01-10 06:06:20,262 - config - INFO - Dropped 0 ID/sensitive/leak cols
+2026-01-10 06:06:20,262 - config - INFO - Preprocessing complete
+2026-01-10 06:06:20,263 - config - INFO -    Shape after preprocessing: (100000, 40)
+2026-01-10 06:06:20,265 - config - INFO - Engineering features...
+2026-01-10 06:06:20,268 - config - INFO - Added amount_zscore
+2026-01-10 06:06:20,269 - config - INFO - Added velocity_anomaly
+2026-01-10 06:06:20,289 - config - INFO - Added composite_anomaly
+2026-01-10 06:06:20,291 - config - INFO - Added risk_night_interaction
+2026-01-10 06:06:20,306 - config - INFO - Added sharing_risk
+2026-01-10 06:06:20,422 - config - INFO - One-hot encoded 5 low-card cats
+2026-01-10 06:06:20,439 - config - INFO - Label encoded location
+2026-01-10 06:06:20,451 - config - INFO - Label encoded device_used
+2026-01-10 06:06:20,464 - config - INFO - Label encoded ip_geo_region
+2026-01-10 06:06:20,464 - config - INFO - Added 7 new feats. New shape: (100000, 88)
+2026-01-10 06:06:20,464 - config - INFO -    Shape after FE: (100000, 88)
+2026-01-10 06:06:20,467 - config - INFO - Selecting features...
+2026-01-10 06:06:22,929 - config - INFO - Selected top 50 feats (e.g., ['time_since_last_transaction', 'receiver_account', 'location_fraud_risk', 'composite_anomaly', 'amount_zscore'])
+2026-01-10 06:06:22,945 - config - INFO -    Selected 50 features
+2026-01-10 06:06:22,945 - config - INFO -    Top 10 features: ['time_since_last_transaction', 'receiver_account', 'location_fraud_risk', 'composite_anomaly', 'amount_zscore', 'spending_deviation_score', 'user_avg_txn_amt', 'merchant_fraud_rate', 'amount_ngn', 'total_amount_last_1h']
+2026-01-10 06:06:23,037 - config - INFO -    Train: 80,000 rows
+2026-01-10 06:06:23,038 - config - INFO -    Test:  20,000 rows
+2026-01-10 06:06:26,947 - config - INFO -    Original fraud rate: 3.60%
+2026-01-10 06:06:26,947 - config - INFO -    Resampled fraud rate: 33.33%
+2026-01-10 06:06:26,948 - config - INFO -    New train size: 115,683
+2026-01-10 06:06:34,670 - config - INFO -    IsoForest trained
+2026-01-10 06:06:34,687 - config - INFO -    Threshold: 0.0920
+2026-01-10 06:06:34,687 - config - INFO -    Precision: 0.0439
+2026-01-10 06:06:34,687 - config - INFO -    Recall:    0.9875
+2026-01-10 06:06:34,687 - config - INFO -    F1 Score:  0.0841
+2026-01-10 06:06:34,689 - config - INFO - 
+============================================================
+2026-01-10 06:06:34,690 - config - INFO - MODEL EVALUATION
+2026-01-10 06:06:34,690 - config - INFO - ============================================================
+2026-01-10 06:06:34,722 - config - INFO - 
+              precision    recall  f1-score   support
+
+  Legitimate       1.00      0.20      0.33     19280
+       Fraud       0.04      0.99      0.08       720
+
+    accuracy                           0.23     20000
+   macro avg       0.52      0.59      0.21     20000
+weighted avg       0.96      0.23      0.32     20000
+
+2026-01-10 06:06:34,728 - config - INFO -                  Predicted
+2026-01-10 06:06:34,728 - config - INFO -                  Legit  Fraud
+2026-01-10 06:06:34,729 - config - INFO - Actual Legit      3803  15477
+2026-01-10 06:06:34,729 - config - INFO -        Fraud        10    710
+2026-01-10 06:06:34,747 - config - INFO -    ROC-AUC: 0.5758
+2026-01-10 06:06:34,747 - config - INFO -    PR-AUC:  0.0426
+2026-01-10 06:06:34,748 - config - INFO -    False Positive Rate: 0.8027
+2026-01-10 06:06:34,748 - config - INFO -    False Negative Rate: 0.0139
