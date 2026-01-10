@@ -73,12 +73,11 @@ export function UploadExcel() {
     <div className="w-full max-w-2xl mx-auto p-4">
       <Card>
         <CardHeader>
-          <CardTitle>📊 Excel Upload</CardTitle>
+          <CardTitle>Excel Upload</CardTitle>
           <CardDescription>Upload your transaction data for fraud analysis</CardDescription>
         </CardHeader>
 
         <CardContent className="space-y-4">
-          {/* File Input */}
           <div className="space-y-2">
             <label className="text-sm font-medium">Select Excel File</label>
             <Input
@@ -95,7 +94,6 @@ export function UploadExcel() {
             )}
           </div>
 
-          {/* Buttons */}
           <div className="flex gap-2">
             <Button
               onClick={handleUpload}
@@ -121,7 +119,6 @@ export function UploadExcel() {
             </Button>
           </div>
 
-          {/* Error Alert */}
           {error && (
             <Alert variant="destructive">
               <AlertTriangleIcon className="h-4 w-4" />
@@ -129,17 +126,15 @@ export function UploadExcel() {
             </Alert>
           )}
 
-          {/* Success Alert */}
           {result?.success && (
             <Alert className="border-green-200 bg-green-50">
               <CheckCircleIcon className="h-4 w-4 text-green-600" />
               <AlertDescription className="text-green-800">
-                ✅ {result.message}
+                {result.message}
               </AlertDescription>
             </Alert>
           )}
 
-          {/* Results */}
           {result?.success && (
             <div className="space-y-2 p-4 bg-muted rounded-lg text-sm">
               <p>

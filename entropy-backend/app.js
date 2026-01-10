@@ -5,6 +5,7 @@ import multer from "multer";
 import path from "path";
 import { fileURLToPath } from "url";
 import excelIngestRoute from "./routes/excelIngest.js";
+import simulationRoute from "./routes/simulation.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -43,6 +44,7 @@ const upload = multer({
 });
 
 app.use("/api/upload-excel", excelIngestRoute(upload));
+app.use("/api/simulation", simulationRoute);
 
 app.use("/health", (req, res) => {
   res.status(200).send("OK");
