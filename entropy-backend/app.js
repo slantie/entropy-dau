@@ -23,22 +23,26 @@ const storage = multer.diskStorage({
     cb(null, path.join(__dirname, "temp-uploads"));
   },
   filename: (request, file, cb) => {
-    cb(null, file.originalname + "-" + Date.now());
+    const ext = path.extname(file.originalname);
+    const basename = path.basename(file.originalname, ext);
+    cb(null, `${basename}-${Date.now()}${ext}`);
   },
 });
 
 const upload = multer({
   storage,
-  limits: { fileSize: 200 * 1024 * 1024 },
+  limits: { fileSize: 2000 * 1024 * 1024 },
   fileFilter: (req, file, cb) => {
     const allowed = [
       "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "application/vnd.ms-excel",
+      "text/csv",
+      "application/csv",
     ];
-    if (allowed.includes(file.mimetype)) {
+    if (allowed.includes(file.mimetype) || file.originalname.endsWith(".csv")) {
       cb(null, true);
     } else {
-      cb(new Error("Only Excel files allowed"));
+      cb(new Error("Only Excel and CSV files allowed"));
     }
   },
 });

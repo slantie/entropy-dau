@@ -3,7 +3,6 @@ uvicorn
 joblib
 numpy
 shap
-xgboost
 lightgbm
 pandas
 scikit-learn

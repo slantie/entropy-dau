@@ -1,0 +1,7010 @@
+{
+  "total_transactions": 2000,
+  "metrics_sample_size": 1000,
+  "total_time_seconds": 197.77,
+  "model_load_time_seconds": 5.73,
+  "average_inference_time_ms": 98.88,
+  "throughput_transactions_per_second": 10.11,
+  "per_transaction_timing": [
+    {
+      "transaction_idx": 0,
+      "total_time_ms": 75.81,
+      "engineering_time_ms": 49.0,
+      "inference_time_ms": 22.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 1,
+      "total_time_ms": 62.99,
+      "engineering_time_ms": 41.49,
+      "inference_time_ms": 17.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 2,
+      "total_time_ms": 90.63,
+      "engineering_time_ms": 65.05,
+      "inference_time_ms": 20.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 3,
+      "total_time_ms": 60.48,
+      "engineering_time_ms": 37.27,
+      "inference_time_ms": 18.18,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 4,
+      "total_time_ms": 80.83,
+      "engineering_time_ms": 57.07,
+      "inference_time_ms": 19.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 5,
+      "total_time_ms": 82.72,
+      "engineering_time_ms": 60.08,
+      "inference_time_ms": 17.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 6,
+      "total_time_ms": 88.35,
+      "engineering_time_ms": 60.94,
+      "inference_time_ms": 22.39,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 7,
+      "total_time_ms": 116.77,
+      "engineering_time_ms": 93.38,
+      "inference_time_ms": 18.11,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 8,
+      "total_time_ms": 55.58,
+      "engineering_time_ms": 34.27,
+      "inference_time_ms": 16.71,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 9,
+      "total_time_ms": 79.72,
+      "engineering_time_ms": 56.59,
+      "inference_time_ms": 18.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 10,
+      "total_time_ms": 70.48,
+      "engineering_time_ms": 45.64,
+      "inference_time_ms": 19.63,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 11,
+      "total_time_ms": 79.36,
+      "engineering_time_ms": 56.09,
+      "inference_time_ms": 18.48,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 12,
+      "total_time_ms": 88.8,
+      "engineering_time_ms": 62.67,
+      "inference_time_ms": 20.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 13,
+      "total_time_ms": 72.65,
+      "engineering_time_ms": 47.11,
+      "inference_time_ms": 20.88,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 14,
+      "total_time_ms": 92.81,
+      "engineering_time_ms": 66.85,
+      "inference_time_ms": 20.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 15,
+      "total_time_ms": 88.46,
+      "engineering_time_ms": 65.0,
+      "inference_time_ms": 18.66,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 16,
+      "total_time_ms": 59.88,
+      "engineering_time_ms": 34.65,
+      "inference_time_ms": 20.11,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 17,
+      "total_time_ms": 61.43,
+      "engineering_time_ms": 39.09,
+      "inference_time_ms": 17.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 18,
+      "total_time_ms": 57.49,
+      "engineering_time_ms": 35.64,
+      "inference_time_ms": 17.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 19,
+      "total_time_ms": 87.89,
+      "engineering_time_ms": 62.3,
+      "inference_time_ms": 20.7,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 20,
+      "total_time_ms": 80.21,
+      "engineering_time_ms": 57.14,
+      "inference_time_ms": 18.45,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 21,
+      "total_time_ms": 60.72,
+      "engineering_time_ms": 38.54,
+      "inference_time_ms": 17.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 22,
+      "total_time_ms": 80.54,
+      "engineering_time_ms": 57.1,
+      "inference_time_ms": 18.66,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 23,
+      "total_time_ms": 85.21,
+      "engineering_time_ms": 57.11,
+      "inference_time_ms": 23.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 24,
+      "total_time_ms": 82.21,
+      "engineering_time_ms": 58.68,
+      "inference_time_ms": 18.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 25,
+      "total_time_ms": 85.38,
+      "engineering_time_ms": 62.5,
+      "inference_time_ms": 18.11,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 26,
+      "total_time_ms": 80.0,
+      "engineering_time_ms": 55.75,
+      "inference_time_ms": 19.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 27,
+      "total_time_ms": 90.51,
+      "engineering_time_ms": 66.12,
+      "inference_time_ms": 19.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 28,
+      "total_time_ms": 80.1,
+      "engineering_time_ms": 56.57,
+      "inference_time_ms": 18.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 29,
+      "total_time_ms": 78.58,
+      "engineering_time_ms": 55.87,
+      "inference_time_ms": 18.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 30,
+      "total_time_ms": 83.61,
+      "engineering_time_ms": 59.81,
+      "inference_time_ms": 19.09,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 31,
+      "total_time_ms": 93.2,
+      "engineering_time_ms": 67.1,
+      "inference_time_ms": 21.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 32,
+      "total_time_ms": 91.66,
+      "engineering_time_ms": 62.22,
+      "inference_time_ms": 21.79,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 33,
+      "total_time_ms": 97.23,
+      "engineering_time_ms": 70.17,
+      "inference_time_ms": 20.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 34,
+      "total_time_ms": 86.29,
+      "engineering_time_ms": 63.59,
+      "inference_time_ms": 17.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 35,
+      "total_time_ms": 81.63,
+      "engineering_time_ms": 58.03,
+      "inference_time_ms": 18.99,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 36,
+      "total_time_ms": 90.22,
+      "engineering_time_ms": 66.66,
+      "inference_time_ms": 18.85,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 37,
+      "total_time_ms": 66.88,
+      "engineering_time_ms": 44.22,
+      "inference_time_ms": 18.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 38,
+      "total_time_ms": 81.57,
+      "engineering_time_ms": 58.52,
+      "inference_time_ms": 18.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 39,
+      "total_time_ms": 57.93,
+      "engineering_time_ms": 36.36,
+      "inference_time_ms": 16.89,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 40,
+      "total_time_ms": 87.8,
+      "engineering_time_ms": 62.13,
+      "inference_time_ms": 20.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 41,
+      "total_time_ms": 82.86,
+      "engineering_time_ms": 59.31,
+      "inference_time_ms": 18.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 42,
+      "total_time_ms": 89.54,
+      "engineering_time_ms": 65.8,
+      "inference_time_ms": 19.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 43,
+      "total_time_ms": 57.88,
+      "engineering_time_ms": 34.12,
+      "inference_time_ms": 18.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 44,
+      "total_time_ms": 117.84,
+      "engineering_time_ms": 89.16,
+      "inference_time_ms": 23.6,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 45,
+      "total_time_ms": 86.38,
+      "engineering_time_ms": 62.06,
+      "inference_time_ms": 19.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 46,
+      "total_time_ms": 75.1,
+      "engineering_time_ms": 51.95,
+      "inference_time_ms": 18.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 47,
+      "total_time_ms": 60.58,
+      "engineering_time_ms": 37.08,
+      "inference_time_ms": 18.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 48,
+      "total_time_ms": 93.28,
+      "engineering_time_ms": 64.33,
+      "inference_time_ms": 23.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 49,
+      "total_time_ms": 86.5,
+      "engineering_time_ms": 63.53,
+      "inference_time_ms": 18.3,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 50,
+      "total_time_ms": 67.47,
+      "engineering_time_ms": 44.03,
+      "inference_time_ms": 18.59,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 51,
+      "total_time_ms": 62.77,
+      "engineering_time_ms": 39.64,
+      "inference_time_ms": 18.45,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 52,
+      "total_time_ms": 82.45,
+      "engineering_time_ms": 57.69,
+      "inference_time_ms": 19.79,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 53,
+      "total_time_ms": 90.85,
+      "engineering_time_ms": 62.84,
+      "inference_time_ms": 23.39,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 54,
+      "total_time_ms": 64.64,
+      "engineering_time_ms": 41.86,
+      "inference_time_ms": 17.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 55,
+      "total_time_ms": 87.5,
+      "engineering_time_ms": 62.38,
+      "inference_time_ms": 20.38,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 56,
+      "total_time_ms": 82.28,
+      "engineering_time_ms": 57.3,
+      "inference_time_ms": 18.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 57,
+      "total_time_ms": 86.53,
+      "engineering_time_ms": 62.32,
+      "inference_time_ms": 19.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 58,
+      "total_time_ms": 83.85,
+      "engineering_time_ms": 59.55,
+      "inference_time_ms": 19.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 59,
+      "total_time_ms": 80.73,
+      "engineering_time_ms": 57.02,
+      "inference_time_ms": 18.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 60,
+      "total_time_ms": 58.91,
+      "engineering_time_ms": 36.67,
+      "inference_time_ms": 17.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 61,
+      "total_time_ms": 86.57,
+      "engineering_time_ms": 60.24,
+      "inference_time_ms": 20.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 62,
+      "total_time_ms": 87.54,
+      "engineering_time_ms": 62.6,
+      "inference_time_ms": 19.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 63,
+      "total_time_ms": 86.3,
+      "engineering_time_ms": 61.8,
+      "inference_time_ms": 19.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 64,
+      "total_time_ms": 60.05,
+      "engineering_time_ms": 37.87,
+      "inference_time_ms": 17.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 65,
+      "total_time_ms": 87.55,
+      "engineering_time_ms": 63.46,
+      "inference_time_ms": 19.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 66,
+      "total_time_ms": 66.33,
+      "engineering_time_ms": 43.38,
+      "inference_time_ms": 18.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 67,
+      "total_time_ms": 84.18,
+      "engineering_time_ms": 59.34,
+      "inference_time_ms": 20.09,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 68,
+      "total_time_ms": 69.48,
+      "engineering_time_ms": 37.24,
+      "inference_time_ms": 24.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 69,
+      "total_time_ms": 100.15,
+      "engineering_time_ms": 72.16,
+      "inference_time_ms": 22.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 70,
+      "total_time_ms": 83.22,
+      "engineering_time_ms": 60.44,
+      "inference_time_ms": 18.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 71,
+      "total_time_ms": 90.85,
+      "engineering_time_ms": 64.63,
+      "inference_time_ms": 20.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 72,
+      "total_time_ms": 73.22,
+      "engineering_time_ms": 48.95,
+      "inference_time_ms": 19.41,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 73,
+      "total_time_ms": 82.94,
+      "engineering_time_ms": 57.16,
+      "inference_time_ms": 20.77,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 74,
+      "total_time_ms": 66.4,
+      "engineering_time_ms": 43.39,
+      "inference_time_ms": 18.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 75,
+      "total_time_ms": 61.15,
+      "engineering_time_ms": 36.68,
+      "inference_time_ms": 19.81,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 76,
+      "total_time_ms": 55.36,
+      "engineering_time_ms": 33.98,
+      "inference_time_ms": 16.59,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 77,
+      "total_time_ms": 103.38,
+      "engineering_time_ms": 79.82,
+      "inference_time_ms": 19.02,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 78,
+      "total_time_ms": 81.25,
+      "engineering_time_ms": 56.64,
+      "inference_time_ms": 19.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 79,
+      "total_time_ms": 85.15,
+      "engineering_time_ms": 60.36,
+      "inference_time_ms": 19.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 80,
+      "total_time_ms": 68.2,
+      "engineering_time_ms": 44.88,
+      "inference_time_ms": 18.7,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 81,
+      "total_time_ms": 85.18,
+      "engineering_time_ms": 59.63,
+      "inference_time_ms": 20.81,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 82,
+      "total_time_ms": 93.34,
+      "engineering_time_ms": 67.84,
+      "inference_time_ms": 20.65,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 83,
+      "total_time_ms": 98.55,
+      "engineering_time_ms": 69.95,
+      "inference_time_ms": 23.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 84,
+      "total_time_ms": 83.86,
+      "engineering_time_ms": 59.7,
+      "inference_time_ms": 19.13,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 85,
+      "total_time_ms": 90.65,
+      "engineering_time_ms": 65.73,
+      "inference_time_ms": 19.74,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 86,
+      "total_time_ms": 83.06,
+      "engineering_time_ms": 59.81,
+      "inference_time_ms": 18.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 87,
+      "total_time_ms": 81.52,
+      "engineering_time_ms": 57.65,
+      "inference_time_ms": 18.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 88,
+      "total_time_ms": 86.73,
+      "engineering_time_ms": 61.98,
+      "inference_time_ms": 20.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 89,
+      "total_time_ms": 76.07,
+      "engineering_time_ms": 45.7,
+      "inference_time_ms": 24.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 90,
+      "total_time_ms": 77.19,
+      "engineering_time_ms": 51.85,
+      "inference_time_ms": 20.62,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 91,
+      "total_time_ms": 82.42,
+      "engineering_time_ms": 58.82,
+      "inference_time_ms": 18.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 92,
+      "total_time_ms": 56.82,
+      "engineering_time_ms": 34.66,
+      "inference_time_ms": 17.48,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 93,
+      "total_time_ms": 86.64,
+      "engineering_time_ms": 62.42,
+      "inference_time_ms": 19.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 94,
+      "total_time_ms": 60.06,
+      "engineering_time_ms": 36.76,
+      "inference_time_ms": 18.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 95,
+      "total_time_ms": 91.52,
+      "engineering_time_ms": 67.26,
+      "inference_time_ms": 19.41,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 96,
+      "total_time_ms": 90.85,
+      "engineering_time_ms": 65.84,
+      "inference_time_ms": 20.18,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 97,
+      "total_time_ms": 93.28,
+      "engineering_time_ms": 66.18,
+      "inference_time_ms": 22.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 98,
+      "total_time_ms": 71.29,
+      "engineering_time_ms": 48.43,
+      "inference_time_ms": 18.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 99,
+      "total_time_ms": 67.68,
+      "engineering_time_ms": 43.94,
+      "inference_time_ms": 18.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 100,
+      "total_time_ms": 87.61,
+      "engineering_time_ms": 63.59,
+      "inference_time_ms": 19.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 101,
+      "total_time_ms": 85.3,
+      "engineering_time_ms": 60.71,
+      "inference_time_ms": 19.92,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 102,
+      "total_time_ms": 63.57,
+      "engineering_time_ms": 40.26,
+      "inference_time_ms": 18.3,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 103,
+      "total_time_ms": 88.33,
+      "engineering_time_ms": 63.16,
+      "inference_time_ms": 20.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 104,
+      "total_time_ms": 92.42,
+      "engineering_time_ms": 68.71,
+      "inference_time_ms": 19.09,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 105,
+      "total_time_ms": 68.21,
+      "engineering_time_ms": 44.33,
+      "inference_time_ms": 19.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 106,
+      "total_time_ms": 91.1,
+      "engineering_time_ms": 63.99,
+      "inference_time_ms": 20.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 107,
+      "total_time_ms": 83.34,
+      "engineering_time_ms": 58.16,
+      "inference_time_ms": 20.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 108,
+      "total_time_ms": 87.8,
+      "engineering_time_ms": 63.02,
+      "inference_time_ms": 19.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 109,
+      "total_time_ms": 85.01,
+      "engineering_time_ms": 60.85,
+      "inference_time_ms": 19.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 110,
+      "total_time_ms": 112.0,
+      "engineering_time_ms": 60.89,
+      "inference_time_ms": 45.74,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 111,
+      "total_time_ms": 86.97,
+      "engineering_time_ms": 61.75,
+      "inference_time_ms": 20.0,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 112,
+      "total_time_ms": 68.78,
+      "engineering_time_ms": 44.96,
+      "inference_time_ms": 18.79,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 113,
+      "total_time_ms": 96.75,
+      "engineering_time_ms": 65.48,
+      "inference_time_ms": 26.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 114,
+      "total_time_ms": 82.41,
+      "engineering_time_ms": 58.12,
+      "inference_time_ms": 19.51,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 115,
+      "total_time_ms": 59.3,
+      "engineering_time_ms": 35.66,
+      "inference_time_ms": 18.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 116,
+      "total_time_ms": 86.58,
+      "engineering_time_ms": 62.27,
+      "inference_time_ms": 19.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 117,
+      "total_time_ms": 60.55,
+      "engineering_time_ms": 37.63,
+      "inference_time_ms": 18.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 118,
+      "total_time_ms": 59.16,
+      "engineering_time_ms": 36.28,
+      "inference_time_ms": 18.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 119,
+      "total_time_ms": 81.52,
+      "engineering_time_ms": 56.84,
+      "inference_time_ms": 19.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 120,
+      "total_time_ms": 82.04,
+      "engineering_time_ms": 57.52,
+      "inference_time_ms": 19.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 121,
+      "total_time_ms": 83.41,
+      "engineering_time_ms": 58.94,
+      "inference_time_ms": 19.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 122,
+      "total_time_ms": 72.23,
+      "engineering_time_ms": 44.92,
+      "inference_time_ms": 22.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 123,
+      "total_time_ms": 98.98,
+      "engineering_time_ms": 71.64,
+      "inference_time_ms": 22.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 124,
+      "total_time_ms": 69.52,
+      "engineering_time_ms": 45.63,
+      "inference_time_ms": 19.24,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 125,
+      "total_time_ms": 94.02,
+      "engineering_time_ms": 67.88,
+      "inference_time_ms": 21.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 126,
+      "total_time_ms": 89.95,
+      "engineering_time_ms": 64.54,
+      "inference_time_ms": 20.39,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 127,
+      "total_time_ms": 84.23,
+      "engineering_time_ms": 58.99,
+      "inference_time_ms": 20.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 128,
+      "total_time_ms": 59.3,
+      "engineering_time_ms": 36.33,
+      "inference_time_ms": 18.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 129,
+      "total_time_ms": 64.14,
+      "engineering_time_ms": 39.53,
+      "inference_time_ms": 19.46,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 130,
+      "total_time_ms": 91.97,
+      "engineering_time_ms": 65.41,
+      "inference_time_ms": 21.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 131,
+      "total_time_ms": 83.34,
+      "engineering_time_ms": 59.76,
+      "inference_time_ms": 19.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 132,
+      "total_time_ms": 92.89,
+      "engineering_time_ms": 67.64,
+      "inference_time_ms": 20.56,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 133,
+      "total_time_ms": 95.91,
+      "engineering_time_ms": 66.25,
+      "inference_time_ms": 22.89,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 134,
+      "total_time_ms": 86.43,
+      "engineering_time_ms": 62.6,
+      "inference_time_ms": 18.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 135,
+      "total_time_ms": 86.56,
+      "engineering_time_ms": 62.09,
+      "inference_time_ms": 19.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 136,
+      "total_time_ms": 90.4,
+      "engineering_time_ms": 66.29,
+      "inference_time_ms": 19.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 137,
+      "total_time_ms": 87.92,
+      "engineering_time_ms": 63.31,
+      "inference_time_ms": 19.62,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 138,
+      "total_time_ms": 73.4,
+      "engineering_time_ms": 46.55,
+      "inference_time_ms": 21.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 139,
+      "total_time_ms": 91.95,
+      "engineering_time_ms": 65.15,
+      "inference_time_ms": 21.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 140,
+      "total_time_ms": 88.36,
+      "engineering_time_ms": 63.29,
+      "inference_time_ms": 20.21,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 141,
+      "total_time_ms": 62.15,
+      "engineering_time_ms": 39.09,
+      "inference_time_ms": 18.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 142,
+      "total_time_ms": 90.11,
+      "engineering_time_ms": 65.96,
+      "inference_time_ms": 19.15,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 143,
+      "total_time_ms": 81.38,
+      "engineering_time_ms": 57.54,
+      "inference_time_ms": 19.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 144,
+      "total_time_ms": 89.45,
+      "engineering_time_ms": 64.43,
+      "inference_time_ms": 20.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 145,
+      "total_time_ms": 87.04,
+      "engineering_time_ms": 62.7,
+      "inference_time_ms": 19.66,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 146,
+      "total_time_ms": 83.01,
+      "engineering_time_ms": 59.0,
+      "inference_time_ms": 18.97,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 147,
+      "total_time_ms": 98.63,
+      "engineering_time_ms": 69.46,
+      "inference_time_ms": 24.19,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 148,
+      "total_time_ms": 68.11,
+      "engineering_time_ms": 40.74,
+      "inference_time_ms": 22.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 149,
+      "total_time_ms": 111.88,
+      "engineering_time_ms": 60.87,
+      "inference_time_ms": 46.22,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 150,
+      "total_time_ms": 75.25,
+      "engineering_time_ms": 46.27,
+      "inference_time_ms": 24.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 151,
+      "total_time_ms": 91.23,
+      "engineering_time_ms": 65.33,
+      "inference_time_ms": 20.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 152,
+      "total_time_ms": 109.47,
+      "engineering_time_ms": 81.86,
+      "inference_time_ms": 22.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 153,
+      "total_time_ms": 98.36,
+      "engineering_time_ms": 73.89,
+      "inference_time_ms": 19.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 154,
+      "total_time_ms": 69.32,
+      "engineering_time_ms": 44.91,
+      "inference_time_ms": 19.39,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 155,
+      "total_time_ms": 69.78,
+      "engineering_time_ms": 45.02,
+      "inference_time_ms": 19.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 156,
+      "total_time_ms": 101.86,
+      "engineering_time_ms": 66.22,
+      "inference_time_ms": 26.97,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 157,
+      "total_time_ms": 168.11,
+      "engineering_time_ms": 122.08,
+      "inference_time_ms": 40.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 158,
+      "total_time_ms": 93.38,
+      "engineering_time_ms": 66.24,
+      "inference_time_ms": 21.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 159,
+      "total_time_ms": 97.73,
+      "engineering_time_ms": 68.66,
+      "inference_time_ms": 23.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 160,
+      "total_time_ms": 144.21,
+      "engineering_time_ms": 67.13,
+      "inference_time_ms": 71.89,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 161,
+      "total_time_ms": 138.35,
+      "engineering_time_ms": 65.17,
+      "inference_time_ms": 63.88,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 162,
+      "total_time_ms": 222.06,
+      "engineering_time_ms": 68.84,
+      "inference_time_ms": 142.3,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 163,
+      "total_time_ms": 206.31,
+      "engineering_time_ms": 139.92,
+      "inference_time_ms": 59.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 164,
+      "total_time_ms": 147.06,
+      "engineering_time_ms": 68.57,
+      "inference_time_ms": 69.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 165,
+      "total_time_ms": 125.11,
+      "engineering_time_ms": 75.88,
+      "inference_time_ms": 43.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 166,
+      "total_time_ms": 146.26,
+      "engineering_time_ms": 112.96,
+      "inference_time_ms": 28.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 167,
+      "total_time_ms": 117.1,
+      "engineering_time_ms": 69.5,
+      "inference_time_ms": 40.92,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 168,
+      "total_time_ms": 151.92,
+      "engineering_time_ms": 119.32,
+      "inference_time_ms": 25.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 169,
+      "total_time_ms": 160.86,
+      "engineering_time_ms": 108.18,
+      "inference_time_ms": 45.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 170,
+      "total_time_ms": 216.97,
+      "engineering_time_ms": 144.7,
+      "inference_time_ms": 64.19,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 171,
+      "total_time_ms": 196.5,
+      "engineering_time_ms": 147.21,
+      "inference_time_ms": 43.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 172,
+      "total_time_ms": 75.15,
+      "engineering_time_ms": 45.23,
+      "inference_time_ms": 23.86,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 173,
+      "total_time_ms": 100.89,
+      "engineering_time_ms": 73.18,
+      "inference_time_ms": 22.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 174,
+      "total_time_ms": 67.94,
+      "engineering_time_ms": 43.48,
+      "inference_time_ms": 19.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 175,
+      "total_time_ms": 96.08,
+      "engineering_time_ms": 70.13,
+      "inference_time_ms": 21.06,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 176,
+      "total_time_ms": 71.15,
+      "engineering_time_ms": 46.91,
+      "inference_time_ms": 19.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 177,
+      "total_time_ms": 99.28,
+      "engineering_time_ms": 69.87,
+      "inference_time_ms": 24.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 178,
+      "total_time_ms": 111.2,
+      "engineering_time_ms": 80.55,
+      "inference_time_ms": 25.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 179,
+      "total_time_ms": 82.12,
+      "engineering_time_ms": 57.25,
+      "inference_time_ms": 20.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 180,
+      "total_time_ms": 95.81,
+      "engineering_time_ms": 70.39,
+      "inference_time_ms": 20.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 181,
+      "total_time_ms": 104.13,
+      "engineering_time_ms": 76.45,
+      "inference_time_ms": 21.45,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 182,
+      "total_time_ms": 112.58,
+      "engineering_time_ms": 82.62,
+      "inference_time_ms": 23.84,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 183,
+      "total_time_ms": 93.83,
+      "engineering_time_ms": 67.9,
+      "inference_time_ms": 20.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 184,
+      "total_time_ms": 127.76,
+      "engineering_time_ms": 87.45,
+      "inference_time_ms": 32.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 185,
+      "total_time_ms": 99.6,
+      "engineering_time_ms": 66.88,
+      "inference_time_ms": 27.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 186,
+      "total_time_ms": 104.78,
+      "engineering_time_ms": 78.09,
+      "inference_time_ms": 21.02,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 187,
+      "total_time_ms": 106.41,
+      "engineering_time_ms": 77.46,
+      "inference_time_ms": 22.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 188,
+      "total_time_ms": 90.14,
+      "engineering_time_ms": 66.28,
+      "inference_time_ms": 18.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 189,
+      "total_time_ms": 87.91,
+      "engineering_time_ms": 62.48,
+      "inference_time_ms": 20.51,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 190,
+      "total_time_ms": 86.46,
+      "engineering_time_ms": 60.71,
+      "inference_time_ms": 20.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 191,
+      "total_time_ms": 86.66,
+      "engineering_time_ms": 62.19,
+      "inference_time_ms": 19.51,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 192,
+      "total_time_ms": 125.64,
+      "engineering_time_ms": 90.2,
+      "inference_time_ms": 30.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 193,
+      "total_time_ms": 78.6,
+      "engineering_time_ms": 50.13,
+      "inference_time_ms": 22.66,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 194,
+      "total_time_ms": 79.08,
+      "engineering_time_ms": 53.17,
+      "inference_time_ms": 21.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 195,
+      "total_time_ms": 78.53,
+      "engineering_time_ms": 49.47,
+      "inference_time_ms": 24.38,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 196,
+      "total_time_ms": 95.42,
+      "engineering_time_ms": 70.86,
+      "inference_time_ms": 19.62,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 197,
+      "total_time_ms": 83.22,
+      "engineering_time_ms": 59.17,
+      "inference_time_ms": 19.15,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 198,
+      "total_time_ms": 97.81,
+      "engineering_time_ms": 67.65,
+      "inference_time_ms": 24.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 199,
+      "total_time_ms": 134.33,
+      "engineering_time_ms": 96.4,
+      "inference_time_ms": 32.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 200,
+      "total_time_ms": 133.31,
+      "engineering_time_ms": 89.72,
+      "inference_time_ms": 37.41,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 201,
+      "total_time_ms": 83.28,
+      "engineering_time_ms": 56.85,
+      "inference_time_ms": 21.0,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 202,
+      "total_time_ms": 87.15,
+      "engineering_time_ms": 56.83,
+      "inference_time_ms": 23.89,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 203,
+      "total_time_ms": 88.22,
+      "engineering_time_ms": 62.88,
+      "inference_time_ms": 20.18,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 204,
+      "total_time_ms": 73.32,
+      "engineering_time_ms": 44.92,
+      "inference_time_ms": 22.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 205,
+      "total_time_ms": 85.33,
+      "engineering_time_ms": 57.95,
+      "inference_time_ms": 21.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 206,
+      "total_time_ms": 106.78,
+      "engineering_time_ms": 79.27,
+      "inference_time_ms": 21.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 207,
+      "total_time_ms": 95.14,
+      "engineering_time_ms": 66.85,
+      "inference_time_ms": 22.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 208,
+      "total_time_ms": 106.36,
+      "engineering_time_ms": 79.51,
+      "inference_time_ms": 21.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 209,
+      "total_time_ms": 100.12,
+      "engineering_time_ms": 72.63,
+      "inference_time_ms": 22.22,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 210,
+      "total_time_ms": 99.6,
+      "engineering_time_ms": 72.83,
+      "inference_time_ms": 21.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 211,
+      "total_time_ms": 106.12,
+      "engineering_time_ms": 75.48,
+      "inference_time_ms": 23.59,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 212,
+      "total_time_ms": 68.25,
+      "engineering_time_ms": 41.87,
+      "inference_time_ms": 18.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 213,
+      "total_time_ms": 103.16,
+      "engineering_time_ms": 71.72,
+      "inference_time_ms": 25.7,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 214,
+      "total_time_ms": 66.64,
+      "engineering_time_ms": 41.47,
+      "inference_time_ms": 19.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 215,
+      "total_time_ms": 110.07,
+      "engineering_time_ms": 80.49,
+      "inference_time_ms": 23.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 216,
+      "total_time_ms": 139.63,
+      "engineering_time_ms": 75.56,
+      "inference_time_ms": 58.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 217,
+      "total_time_ms": 148.9,
+      "engineering_time_ms": 116.33,
+      "inference_time_ms": 25.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 218,
+      "total_time_ms": 80.95,
+      "engineering_time_ms": 55.83,
+      "inference_time_ms": 19.5,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 219,
+      "total_time_ms": 108.17,
+      "engineering_time_ms": 80.72,
+      "inference_time_ms": 22.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 220,
+      "total_time_ms": 99.06,
+      "engineering_time_ms": 67.23,
+      "inference_time_ms": 24.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 221,
+      "total_time_ms": 80.49,
+      "engineering_time_ms": 48.47,
+      "inference_time_ms": 26.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 222,
+      "total_time_ms": 88.48,
+      "engineering_time_ms": 58.99,
+      "inference_time_ms": 22.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 223,
+      "total_time_ms": 109.05,
+      "engineering_time_ms": 76.88,
+      "inference_time_ms": 26.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 224,
+      "total_time_ms": 105.08,
+      "engineering_time_ms": 73.78,
+      "inference_time_ms": 26.15,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 225,
+      "total_time_ms": 87.49,
+      "engineering_time_ms": 61.68,
+      "inference_time_ms": 20.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 226,
+      "total_time_ms": 64.93,
+      "engineering_time_ms": 40.63,
+      "inference_time_ms": 19.0,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 227,
+      "total_time_ms": 93.39,
+      "engineering_time_ms": 65.35,
+      "inference_time_ms": 22.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 228,
+      "total_time_ms": 132.02,
+      "engineering_time_ms": 91.66,
+      "inference_time_ms": 34.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 229,
+      "total_time_ms": 99.92,
+      "engineering_time_ms": 72.4,
+      "inference_time_ms": 21.85,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 230,
+      "total_time_ms": 102.89,
+      "engineering_time_ms": 75.09,
+      "inference_time_ms": 22.75,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 231,
+      "total_time_ms": 98.17,
+      "engineering_time_ms": 71.94,
+      "inference_time_ms": 20.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 232,
+      "total_time_ms": 100.5,
+      "engineering_time_ms": 73.82,
+      "inference_time_ms": 21.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 233,
+      "total_time_ms": 101.96,
+      "engineering_time_ms": 74.18,
+      "inference_time_ms": 22.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 234,
+      "total_time_ms": 104.11,
+      "engineering_time_ms": 74.87,
+      "inference_time_ms": 23.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 235,
+      "total_time_ms": 96.26,
+      "engineering_time_ms": 71.17,
+      "inference_time_ms": 19.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 236,
+      "total_time_ms": 95.94,
+      "engineering_time_ms": 69.05,
+      "inference_time_ms": 21.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 237,
+      "total_time_ms": 105.87,
+      "engineering_time_ms": 77.35,
+      "inference_time_ms": 22.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 238,
+      "total_time_ms": 97.84,
+      "engineering_time_ms": 68.43,
+      "inference_time_ms": 22.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 239,
+      "total_time_ms": 82.21,
+      "engineering_time_ms": 51.34,
+      "inference_time_ms": 25.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 240,
+      "total_time_ms": 105.65,
+      "engineering_time_ms": 79.28,
+      "inference_time_ms": 20.74,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 241,
+      "total_time_ms": 85.4,
+      "engineering_time_ms": 56.14,
+      "inference_time_ms": 23.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 242,
+      "total_time_ms": 64.81,
+      "engineering_time_ms": 40.48,
+      "inference_time_ms": 19.15,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 243,
+      "total_time_ms": 92.23,
+      "engineering_time_ms": 67.11,
+      "inference_time_ms": 19.97,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 244,
+      "total_time_ms": 73.53,
+      "engineering_time_ms": 46.48,
+      "inference_time_ms": 21.56,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 245,
+      "total_time_ms": 90.81,
+      "engineering_time_ms": 61.02,
+      "inference_time_ms": 24.6,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 246,
+      "total_time_ms": 101.92,
+      "engineering_time_ms": 70.52,
+      "inference_time_ms": 26.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 247,
+      "total_time_ms": 67.65,
+      "engineering_time_ms": 44.37,
+      "inference_time_ms": 18.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 248,
+      "total_time_ms": 105.17,
+      "engineering_time_ms": 72.95,
+      "inference_time_ms": 26.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 249,
+      "total_time_ms": 81.25,
+      "engineering_time_ms": 54.55,
+      "inference_time_ms": 21.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 250,
+      "total_time_ms": 95.68,
+      "engineering_time_ms": 69.7,
+      "inference_time_ms": 20.48,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 251,
+      "total_time_ms": 92.12,
+      "engineering_time_ms": 66.16,
+      "inference_time_ms": 20.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 252,
+      "total_time_ms": 109.15,
+      "engineering_time_ms": 77.52,
+      "inference_time_ms": 26.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 253,
+      "total_time_ms": 106.1,
+      "engineering_time_ms": 77.39,
+      "inference_time_ms": 23.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 254,
+      "total_time_ms": 102.43,
+      "engineering_time_ms": 73.27,
+      "inference_time_ms": 23.92,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 255,
+      "total_time_ms": 119.27,
+      "engineering_time_ms": 70.73,
+      "inference_time_ms": 43.3,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 256,
+      "total_time_ms": 77.16,
+      "engineering_time_ms": 49.97,
+      "inference_time_ms": 21.75,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 257,
+      "total_time_ms": 62.33,
+      "engineering_time_ms": 33.26,
+      "inference_time_ms": 23.85,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 258,
+      "total_time_ms": 116.76,
+      "engineering_time_ms": 83.82,
+      "inference_time_ms": 25.75,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 259,
+      "total_time_ms": 105.35,
+      "engineering_time_ms": 74.37,
+      "inference_time_ms": 24.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 260,
+      "total_time_ms": 114.7,
+      "engineering_time_ms": 87.55,
+      "inference_time_ms": 20.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 261,
+      "total_time_ms": 106.2,
+      "engineering_time_ms": 76.66,
+      "inference_time_ms": 23.18,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 262,
+      "total_time_ms": 69.6,
+      "engineering_time_ms": 41.71,
+      "inference_time_ms": 22.84,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 263,
+      "total_time_ms": 77.17,
+      "engineering_time_ms": 50.99,
+      "inference_time_ms": 21.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 264,
+      "total_time_ms": 104.2,
+      "engineering_time_ms": 75.3,
+      "inference_time_ms": 23.36,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 265,
+      "total_time_ms": 81.13,
+      "engineering_time_ms": 55.05,
+      "inference_time_ms": 20.63,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 266,
+      "total_time_ms": 89.72,
+      "engineering_time_ms": 58.57,
+      "inference_time_ms": 25.26,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 267,
+      "total_time_ms": 95.42,
+      "engineering_time_ms": 68.38,
+      "inference_time_ms": 22.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 268,
+      "total_time_ms": 97.71,
+      "engineering_time_ms": 69.16,
+      "inference_time_ms": 23.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 269,
+      "total_time_ms": 99.54,
+      "engineering_time_ms": 69.23,
+      "inference_time_ms": 25.09,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 270,
+      "total_time_ms": 97.75,
+      "engineering_time_ms": 69.17,
+      "inference_time_ms": 22.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 271,
+      "total_time_ms": 71.87,
+      "engineering_time_ms": 39.7,
+      "inference_time_ms": 25.41,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 272,
+      "total_time_ms": 94.64,
+      "engineering_time_ms": 69.72,
+      "inference_time_ms": 19.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 273,
+      "total_time_ms": 98.57,
+      "engineering_time_ms": 68.98,
+      "inference_time_ms": 23.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 274,
+      "total_time_ms": 92.21,
+      "engineering_time_ms": 66.61,
+      "inference_time_ms": 20.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 275,
+      "total_time_ms": 86.18,
+      "engineering_time_ms": 59.54,
+      "inference_time_ms": 22.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 276,
+      "total_time_ms": 98.85,
+      "engineering_time_ms": 65.56,
+      "inference_time_ms": 27.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 277,
+      "total_time_ms": 74.14,
+      "engineering_time_ms": 44.76,
+      "inference_time_ms": 23.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 278,
+      "total_time_ms": 101.67,
+      "engineering_time_ms": 74.37,
+      "inference_time_ms": 21.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 279,
+      "total_time_ms": 105.76,
+      "engineering_time_ms": 74.92,
+      "inference_time_ms": 25.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 280,
+      "total_time_ms": 84.26,
+      "engineering_time_ms": 54.38,
+      "inference_time_ms": 24.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 281,
+      "total_time_ms": 103.03,
+      "engineering_time_ms": 75.58,
+      "inference_time_ms": 20.92,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 282,
+      "total_time_ms": 82.33,
+      "engineering_time_ms": 52.94,
+      "inference_time_ms": 22.81,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 283,
+      "total_time_ms": 100.88,
+      "engineering_time_ms": 71.76,
+      "inference_time_ms": 23.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 284,
+      "total_time_ms": 102.89,
+      "engineering_time_ms": 74.19,
+      "inference_time_ms": 22.38,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 285,
+      "total_time_ms": 103.6,
+      "engineering_time_ms": 73.62,
+      "inference_time_ms": 24.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 286,
+      "total_time_ms": 86.22,
+      "engineering_time_ms": 53.32,
+      "inference_time_ms": 27.38,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 287,
+      "total_time_ms": 96.03,
+      "engineering_time_ms": 70.19,
+      "inference_time_ms": 20.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 288,
+      "total_time_ms": 75.31,
+      "engineering_time_ms": 43.26,
+      "inference_time_ms": 25.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 289,
+      "total_time_ms": 150.31,
+      "engineering_time_ms": 113.19,
+      "inference_time_ms": 31.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 290,
+      "total_time_ms": 83.83,
+      "engineering_time_ms": 58.16,
+      "inference_time_ms": 20.5,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 291,
+      "total_time_ms": 82.2,
+      "engineering_time_ms": 56.03,
+      "inference_time_ms": 21.0,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 292,
+      "total_time_ms": 109.86,
+      "engineering_time_ms": 80.02,
+      "inference_time_ms": 23.19,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 293,
+      "total_time_ms": 98.33,
+      "engineering_time_ms": 73.0,
+      "inference_time_ms": 20.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 294,
+      "total_time_ms": 110.48,
+      "engineering_time_ms": 82.96,
+      "inference_time_ms": 21.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 295,
+      "total_time_ms": 83.1,
+      "engineering_time_ms": 55.01,
+      "inference_time_ms": 22.71,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 296,
+      "total_time_ms": 62.2,
+      "engineering_time_ms": 38.26,
+      "inference_time_ms": 18.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 297,
+      "total_time_ms": 94.04,
+      "engineering_time_ms": 67.05,
+      "inference_time_ms": 21.71,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 298,
+      "total_time_ms": 80.35,
+      "engineering_time_ms": 53.62,
+      "inference_time_ms": 20.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 299,
+      "total_time_ms": 92.67,
+      "engineering_time_ms": 67.01,
+      "inference_time_ms": 19.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 300,
+      "total_time_ms": 66.87,
+      "engineering_time_ms": 42.24,
+      "inference_time_ms": 19.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 301,
+      "total_time_ms": 111.21,
+      "engineering_time_ms": 75.19,
+      "inference_time_ms": 30.66,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 302,
+      "total_time_ms": 123.73,
+      "engineering_time_ms": 89.93,
+      "inference_time_ms": 27.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 303,
+      "total_time_ms": 107.41,
+      "engineering_time_ms": 75.3,
+      "inference_time_ms": 26.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 304,
+      "total_time_ms": 101.97,
+      "engineering_time_ms": 72.9,
+      "inference_time_ms": 21.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 305,
+      "total_time_ms": 97.23,
+      "engineering_time_ms": 70.4,
+      "inference_time_ms": 21.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 306,
+      "total_time_ms": 105.06,
+      "engineering_time_ms": 77.69,
+      "inference_time_ms": 21.77,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 307,
+      "total_time_ms": 92.48,
+      "engineering_time_ms": 66.99,
+      "inference_time_ms": 20.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 308,
+      "total_time_ms": 108.82,
+      "engineering_time_ms": 81.65,
+      "inference_time_ms": 21.75,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 309,
+      "total_time_ms": 101.93,
+      "engineering_time_ms": 72.62,
+      "inference_time_ms": 23.81,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 310,
+      "total_time_ms": 91.47,
+      "engineering_time_ms": 63.64,
+      "inference_time_ms": 22.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 311,
+      "total_time_ms": 96.15,
+      "engineering_time_ms": 68.87,
+      "inference_time_ms": 21.79,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 312,
+      "total_time_ms": 111.31,
+      "engineering_time_ms": 81.21,
+      "inference_time_ms": 23.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 313,
+      "total_time_ms": 115.07,
+      "engineering_time_ms": 84.03,
+      "inference_time_ms": 25.43,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 314,
+      "total_time_ms": 103.04,
+      "engineering_time_ms": 69.86,
+      "inference_time_ms": 27.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 315,
+      "total_time_ms": 81.1,
+      "engineering_time_ms": 51.32,
+      "inference_time_ms": 23.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 316,
+      "total_time_ms": 95.55,
+      "engineering_time_ms": 69.17,
+      "inference_time_ms": 21.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 317,
+      "total_time_ms": 91.16,
+      "engineering_time_ms": 65.44,
+      "inference_time_ms": 20.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 318,
+      "total_time_ms": 103.1,
+      "engineering_time_ms": 77.21,
+      "inference_time_ms": 20.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 319,
+      "total_time_ms": 92.25,
+      "engineering_time_ms": 66.49,
+      "inference_time_ms": 20.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 320,
+      "total_time_ms": 94.03,
+      "engineering_time_ms": 67.82,
+      "inference_time_ms": 20.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 321,
+      "total_time_ms": 93.55,
+      "engineering_time_ms": 66.94,
+      "inference_time_ms": 21.48,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 322,
+      "total_time_ms": 133.93,
+      "engineering_time_ms": 68.17,
+      "inference_time_ms": 59.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 323,
+      "total_time_ms": 67.12,
+      "engineering_time_ms": 40.68,
+      "inference_time_ms": 21.06,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 324,
+      "total_time_ms": 119.46,
+      "engineering_time_ms": 85.21,
+      "inference_time_ms": 28.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 325,
+      "total_time_ms": 72.27,
+      "engineering_time_ms": 45.44,
+      "inference_time_ms": 21.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 326,
+      "total_time_ms": 97.85,
+      "engineering_time_ms": 68.38,
+      "inference_time_ms": 22.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 327,
+      "total_time_ms": 104.74,
+      "engineering_time_ms": 75.25,
+      "inference_time_ms": 23.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 328,
+      "total_time_ms": 104.81,
+      "engineering_time_ms": 78.28,
+      "inference_time_ms": 21.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 329,
+      "total_time_ms": 67.88,
+      "engineering_time_ms": 42.22,
+      "inference_time_ms": 19.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 330,
+      "total_time_ms": 84.7,
+      "engineering_time_ms": 55.76,
+      "inference_time_ms": 23.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 331,
+      "total_time_ms": 96.1,
+      "engineering_time_ms": 69.94,
+      "inference_time_ms": 20.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 332,
+      "total_time_ms": 104.15,
+      "engineering_time_ms": 77.22,
+      "inference_time_ms": 21.62,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 333,
+      "total_time_ms": 88.43,
+      "engineering_time_ms": 63.1,
+      "inference_time_ms": 20.18,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 334,
+      "total_time_ms": 65.76,
+      "engineering_time_ms": 40.98,
+      "inference_time_ms": 19.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 335,
+      "total_time_ms": 79.34,
+      "engineering_time_ms": 53.12,
+      "inference_time_ms": 20.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 336,
+      "total_time_ms": 80.56,
+      "engineering_time_ms": 54.21,
+      "inference_time_ms": 20.45,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 337,
+      "total_time_ms": 87.62,
+      "engineering_time_ms": 56.11,
+      "inference_time_ms": 23.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 338,
+      "total_time_ms": 99.0,
+      "engineering_time_ms": 72.2,
+      "inference_time_ms": 21.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 339,
+      "total_time_ms": 103.39,
+      "engineering_time_ms": 76.48,
+      "inference_time_ms": 21.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 340,
+      "total_time_ms": 100.46,
+      "engineering_time_ms": 72.95,
+      "inference_time_ms": 22.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 341,
+      "total_time_ms": 97.9,
+      "engineering_time_ms": 66.31,
+      "inference_time_ms": 26.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 342,
+      "total_time_ms": 93.83,
+      "engineering_time_ms": 66.79,
+      "inference_time_ms": 21.56,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 343,
+      "total_time_ms": 105.67,
+      "engineering_time_ms": 77.86,
+      "inference_time_ms": 22.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 344,
+      "total_time_ms": 63.37,
+      "engineering_time_ms": 38.7,
+      "inference_time_ms": 19.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 345,
+      "total_time_ms": 93.32,
+      "engineering_time_ms": 64.31,
+      "inference_time_ms": 22.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 346,
+      "total_time_ms": 111.94,
+      "engineering_time_ms": 82.75,
+      "inference_time_ms": 23.02,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 347,
+      "total_time_ms": 89.73,
+      "engineering_time_ms": 63.81,
+      "inference_time_ms": 20.62,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 348,
+      "total_time_ms": 101.35,
+      "engineering_time_ms": 75.05,
+      "inference_time_ms": 21.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 349,
+      "total_time_ms": 102.88,
+      "engineering_time_ms": 72.02,
+      "inference_time_ms": 25.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 350,
+      "total_time_ms": 64.31,
+      "engineering_time_ms": 37.4,
+      "inference_time_ms": 21.66,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 351,
+      "total_time_ms": 61.83,
+      "engineering_time_ms": 37.33,
+      "inference_time_ms": 19.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 352,
+      "total_time_ms": 100.62,
+      "engineering_time_ms": 71.46,
+      "inference_time_ms": 23.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 353,
+      "total_time_ms": 103.76,
+      "engineering_time_ms": 69.09,
+      "inference_time_ms": 26.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 354,
+      "total_time_ms": 105.29,
+      "engineering_time_ms": 77.96,
+      "inference_time_ms": 22.22,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 355,
+      "total_time_ms": 103.88,
+      "engineering_time_ms": 75.01,
+      "inference_time_ms": 23.66,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 356,
+      "total_time_ms": 121.04,
+      "engineering_time_ms": 89.46,
+      "inference_time_ms": 25.77,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 357,
+      "total_time_ms": 97.69,
+      "engineering_time_ms": 67.94,
+      "inference_time_ms": 24.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 358,
+      "total_time_ms": 97.65,
+      "engineering_time_ms": 69.39,
+      "inference_time_ms": 22.86,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 359,
+      "total_time_ms": 101.67,
+      "engineering_time_ms": 71.43,
+      "inference_time_ms": 24.97,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 360,
+      "total_time_ms": 101.23,
+      "engineering_time_ms": 73.22,
+      "inference_time_ms": 22.7,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 361,
+      "total_time_ms": 105.82,
+      "engineering_time_ms": 78.0,
+      "inference_time_ms": 22.41,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 362,
+      "total_time_ms": 92.47,
+      "engineering_time_ms": 65.92,
+      "inference_time_ms": 21.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 363,
+      "total_time_ms": 73.39,
+      "engineering_time_ms": 48.69,
+      "inference_time_ms": 19.43,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 364,
+      "total_time_ms": 66.75,
+      "engineering_time_ms": 41.54,
+      "inference_time_ms": 18.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 365,
+      "total_time_ms": 100.42,
+      "engineering_time_ms": 73.45,
+      "inference_time_ms": 21.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 366,
+      "total_time_ms": 97.99,
+      "engineering_time_ms": 70.34,
+      "inference_time_ms": 22.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 367,
+      "total_time_ms": 76.18,
+      "engineering_time_ms": 48.94,
+      "inference_time_ms": 21.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 368,
+      "total_time_ms": 93.63,
+      "engineering_time_ms": 67.97,
+      "inference_time_ms": 20.06,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 369,
+      "total_time_ms": 69.08,
+      "engineering_time_ms": 42.89,
+      "inference_time_ms": 20.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 370,
+      "total_time_ms": 103.76,
+      "engineering_time_ms": 73.62,
+      "inference_time_ms": 24.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 371,
+      "total_time_ms": 90.96,
+      "engineering_time_ms": 65.65,
+      "inference_time_ms": 20.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 372,
+      "total_time_ms": 70.4,
+      "engineering_time_ms": 43.17,
+      "inference_time_ms": 21.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 373,
+      "total_time_ms": 79.73,
+      "engineering_time_ms": 50.37,
+      "inference_time_ms": 24.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 374,
+      "total_time_ms": 98.19,
+      "engineering_time_ms": 69.03,
+      "inference_time_ms": 23.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 375,
+      "total_time_ms": 112.36,
+      "engineering_time_ms": 81.89,
+      "inference_time_ms": 25.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 376,
+      "total_time_ms": 79.2,
+      "engineering_time_ms": 53.93,
+      "inference_time_ms": 20.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 377,
+      "total_time_ms": 74.98,
+      "engineering_time_ms": 49.17,
+      "inference_time_ms": 20.63,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 378,
+      "total_time_ms": 92.32,
+      "engineering_time_ms": 66.11,
+      "inference_time_ms": 19.92,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 379,
+      "total_time_ms": 115.57,
+      "engineering_time_ms": 83.77,
+      "inference_time_ms": 25.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 380,
+      "total_time_ms": 97.01,
+      "engineering_time_ms": 68.56,
+      "inference_time_ms": 23.11,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 381,
+      "total_time_ms": 90.33,
+      "engineering_time_ms": 64.77,
+      "inference_time_ms": 20.21,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 382,
+      "total_time_ms": 111.7,
+      "engineering_time_ms": 81.68,
+      "inference_time_ms": 24.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 383,
+      "total_time_ms": 98.8,
+      "engineering_time_ms": 73.11,
+      "inference_time_ms": 20.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 384,
+      "total_time_ms": 105.6,
+      "engineering_time_ms": 76.26,
+      "inference_time_ms": 23.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 385,
+      "total_time_ms": 102.63,
+      "engineering_time_ms": 71.51,
+      "inference_time_ms": 25.71,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 386,
+      "total_time_ms": 92.0,
+      "engineering_time_ms": 57.88,
+      "inference_time_ms": 27.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 387,
+      "total_time_ms": 90.98,
+      "engineering_time_ms": 63.46,
+      "inference_time_ms": 22.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 388,
+      "total_time_ms": 99.92,
+      "engineering_time_ms": 72.03,
+      "inference_time_ms": 22.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 389,
+      "total_time_ms": 139.19,
+      "engineering_time_ms": 102.62,
+      "inference_time_ms": 31.43,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 390,
+      "total_time_ms": 109.69,
+      "engineering_time_ms": 76.45,
+      "inference_time_ms": 28.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 391,
+      "total_time_ms": 75.87,
+      "engineering_time_ms": 51.45,
+      "inference_time_ms": 19.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 392,
+      "total_time_ms": 76.72,
+      "engineering_time_ms": 51.66,
+      "inference_time_ms": 19.84,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 393,
+      "total_time_ms": 102.69,
+      "engineering_time_ms": 71.91,
+      "inference_time_ms": 23.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 394,
+      "total_time_ms": 65.77,
+      "engineering_time_ms": 39.6,
+      "inference_time_ms": 20.48,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 395,
+      "total_time_ms": 96.18,
+      "engineering_time_ms": 69.06,
+      "inference_time_ms": 21.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 396,
+      "total_time_ms": 103.31,
+      "engineering_time_ms": 75.17,
+      "inference_time_ms": 22.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 397,
+      "total_time_ms": 101.26,
+      "engineering_time_ms": 72.28,
+      "inference_time_ms": 23.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 398,
+      "total_time_ms": 110.06,
+      "engineering_time_ms": 79.9,
+      "inference_time_ms": 25.15,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 399,
+      "total_time_ms": 91.14,
+      "engineering_time_ms": 62.47,
+      "inference_time_ms": 22.85,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 400,
+      "total_time_ms": 125.22,
+      "engineering_time_ms": 92.22,
+      "inference_time_ms": 27.59,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 401,
+      "total_time_ms": 71.86,
+      "engineering_time_ms": 47.76,
+      "inference_time_ms": 18.74,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 402,
+      "total_time_ms": 93.04,
+      "engineering_time_ms": 67.6,
+      "inference_time_ms": 20.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 403,
+      "total_time_ms": 104.82,
+      "engineering_time_ms": 77.21,
+      "inference_time_ms": 22.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 404,
+      "total_time_ms": 76.49,
+      "engineering_time_ms": 51.49,
+      "inference_time_ms": 19.85,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 405,
+      "total_time_ms": 109.61,
+      "engineering_time_ms": 73.1,
+      "inference_time_ms": 31.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 406,
+      "total_time_ms": 90.88,
+      "engineering_time_ms": 52.65,
+      "inference_time_ms": 32.48,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 407,
+      "total_time_ms": 79.39,
+      "engineering_time_ms": 48.4,
+      "inference_time_ms": 25.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 408,
+      "total_time_ms": 120.73,
+      "engineering_time_ms": 87.68,
+      "inference_time_ms": 27.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 409,
+      "total_time_ms": 146.46,
+      "engineering_time_ms": 94.36,
+      "inference_time_ms": 45.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 410,
+      "total_time_ms": 80.74,
+      "engineering_time_ms": 47.35,
+      "inference_time_ms": 28.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 411,
+      "total_time_ms": 101.31,
+      "engineering_time_ms": 69.81,
+      "inference_time_ms": 25.39,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 412,
+      "total_time_ms": 107.65,
+      "engineering_time_ms": 76.53,
+      "inference_time_ms": 25.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 413,
+      "total_time_ms": 103.73,
+      "engineering_time_ms": 74.74,
+      "inference_time_ms": 23.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 414,
+      "total_time_ms": 99.12,
+      "engineering_time_ms": 70.61,
+      "inference_time_ms": 23.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 415,
+      "total_time_ms": 89.86,
+      "engineering_time_ms": 63.77,
+      "inference_time_ms": 20.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 416,
+      "total_time_ms": 93.62,
+      "engineering_time_ms": 68.67,
+      "inference_time_ms": 19.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 417,
+      "total_time_ms": 76.68,
+      "engineering_time_ms": 50.86,
+      "inference_time_ms": 20.57,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 418,
+      "total_time_ms": 93.25,
+      "engineering_time_ms": 65.26,
+      "inference_time_ms": 22.13,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 419,
+      "total_time_ms": 102.2,
+      "engineering_time_ms": 74.68,
+      "inference_time_ms": 22.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 420,
+      "total_time_ms": 116.01,
+      "engineering_time_ms": 85.33,
+      "inference_time_ms": 24.84,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 421,
+      "total_time_ms": 78.71,
+      "engineering_time_ms": 51.79,
+      "inference_time_ms": 21.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 422,
+      "total_time_ms": 132.25,
+      "engineering_time_ms": 99.07,
+      "inference_time_ms": 27.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 423,
+      "total_time_ms": 78.75,
+      "engineering_time_ms": 50.88,
+      "inference_time_ms": 22.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 424,
+      "total_time_ms": 102.54,
+      "engineering_time_ms": 72.76,
+      "inference_time_ms": 23.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 425,
+      "total_time_ms": 99.48,
+      "engineering_time_ms": 73.02,
+      "inference_time_ms": 21.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 426,
+      "total_time_ms": 94.99,
+      "engineering_time_ms": 68.49,
+      "inference_time_ms": 21.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 427,
+      "total_time_ms": 76.99,
+      "engineering_time_ms": 52.97,
+      "inference_time_ms": 18.88,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 428,
+      "total_time_ms": 92.61,
+      "engineering_time_ms": 66.39,
+      "inference_time_ms": 21.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 429,
+      "total_time_ms": 95.1,
+      "engineering_time_ms": 69.42,
+      "inference_time_ms": 20.62,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 430,
+      "total_time_ms": 78.18,
+      "engineering_time_ms": 52.09,
+      "inference_time_ms": 20.77,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 431,
+      "total_time_ms": 108.05,
+      "engineering_time_ms": 77.44,
+      "inference_time_ms": 24.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 432,
+      "total_time_ms": 96.69,
+      "engineering_time_ms": 67.95,
+      "inference_time_ms": 21.97,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 433,
+      "total_time_ms": 100.56,
+      "engineering_time_ms": 71.52,
+      "inference_time_ms": 23.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 434,
+      "total_time_ms": 108.57,
+      "engineering_time_ms": 80.75,
+      "inference_time_ms": 22.45,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 435,
+      "total_time_ms": 106.05,
+      "engineering_time_ms": 81.3,
+      "inference_time_ms": 18.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 436,
+      "total_time_ms": 119.91,
+      "engineering_time_ms": 92.26,
+      "inference_time_ms": 22.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 437,
+      "total_time_ms": 94.65,
+      "engineering_time_ms": 68.1,
+      "inference_time_ms": 20.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 438,
+      "total_time_ms": 70.66,
+      "engineering_time_ms": 42.84,
+      "inference_time_ms": 22.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 439,
+      "total_time_ms": 95.81,
+      "engineering_time_ms": 69.26,
+      "inference_time_ms": 21.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 440,
+      "total_time_ms": 95.12,
+      "engineering_time_ms": 68.85,
+      "inference_time_ms": 20.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 441,
+      "total_time_ms": 104.33,
+      "engineering_time_ms": 76.84,
+      "inference_time_ms": 22.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 442,
+      "total_time_ms": 89.21,
+      "engineering_time_ms": 62.41,
+      "inference_time_ms": 21.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 443,
+      "total_time_ms": 69.51,
+      "engineering_time_ms": 30.32,
+      "inference_time_ms": 33.81,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 444,
+      "total_time_ms": 106.26,
+      "engineering_time_ms": 78.05,
+      "inference_time_ms": 22.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 445,
+      "total_time_ms": 87.69,
+      "engineering_time_ms": 59.84,
+      "inference_time_ms": 21.7,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 446,
+      "total_time_ms": 100.45,
+      "engineering_time_ms": 74.09,
+      "inference_time_ms": 20.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 447,
+      "total_time_ms": 94.66,
+      "engineering_time_ms": 68.11,
+      "inference_time_ms": 21.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 448,
+      "total_time_ms": 100.98,
+      "engineering_time_ms": 73.01,
+      "inference_time_ms": 22.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 449,
+      "total_time_ms": 64.4,
+      "engineering_time_ms": 40.35,
+      "inference_time_ms": 18.84,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 450,
+      "total_time_ms": 81.98,
+      "engineering_time_ms": 56.55,
+      "inference_time_ms": 20.22,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 451,
+      "total_time_ms": 92.4,
+      "engineering_time_ms": 66.61,
+      "inference_time_ms": 19.86,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 452,
+      "total_time_ms": 69.65,
+      "engineering_time_ms": 42.78,
+      "inference_time_ms": 21.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 453,
+      "total_time_ms": 97.09,
+      "engineering_time_ms": 69.68,
+      "inference_time_ms": 22.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 454,
+      "total_time_ms": 91.3,
+      "engineering_time_ms": 63.55,
+      "inference_time_ms": 22.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 455,
+      "total_time_ms": 135.72,
+      "engineering_time_ms": 74.47,
+      "inference_time_ms": 55.63,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 456,
+      "total_time_ms": 103.12,
+      "engineering_time_ms": 71.7,
+      "inference_time_ms": 25.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 457,
+      "total_time_ms": 94.92,
+      "engineering_time_ms": 68.06,
+      "inference_time_ms": 21.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 458,
+      "total_time_ms": 77.14,
+      "engineering_time_ms": 48.37,
+      "inference_time_ms": 23.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 459,
+      "total_time_ms": 95.41,
+      "engineering_time_ms": 68.8,
+      "inference_time_ms": 21.46,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 460,
+      "total_time_ms": 93.44,
+      "engineering_time_ms": 68.17,
+      "inference_time_ms": 20.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 461,
+      "total_time_ms": 68.16,
+      "engineering_time_ms": 40.11,
+      "inference_time_ms": 21.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 462,
+      "total_time_ms": 90.7,
+      "engineering_time_ms": 61.17,
+      "inference_time_ms": 22.09,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 463,
+      "total_time_ms": 104.88,
+      "engineering_time_ms": 77.04,
+      "inference_time_ms": 22.18,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 464,
+      "total_time_ms": 72.9,
+      "engineering_time_ms": 43.09,
+      "inference_time_ms": 23.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 465,
+      "total_time_ms": 73.53,
+      "engineering_time_ms": 47.84,
+      "inference_time_ms": 20.43,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 466,
+      "total_time_ms": 64.97,
+      "engineering_time_ms": 38.89,
+      "inference_time_ms": 20.74,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 467,
+      "total_time_ms": 71.92,
+      "engineering_time_ms": 47.1,
+      "inference_time_ms": 19.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 468,
+      "total_time_ms": 105.88,
+      "engineering_time_ms": 78.75,
+      "inference_time_ms": 21.88,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 469,
+      "total_time_ms": 96.5,
+      "engineering_time_ms": 66.89,
+      "inference_time_ms": 24.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 470,
+      "total_time_ms": 116.71,
+      "engineering_time_ms": 87.33,
+      "inference_time_ms": 24.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 471,
+      "total_time_ms": 91.84,
+      "engineering_time_ms": 65.21,
+      "inference_time_ms": 20.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 472,
+      "total_time_ms": 117.36,
+      "engineering_time_ms": 83.93,
+      "inference_time_ms": 27.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 473,
+      "total_time_ms": 73.84,
+      "engineering_time_ms": 48.98,
+      "inference_time_ms": 19.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 474,
+      "total_time_ms": 93.75,
+      "engineering_time_ms": 62.52,
+      "inference_time_ms": 25.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 475,
+      "total_time_ms": 63.63,
+      "engineering_time_ms": 39.88,
+      "inference_time_ms": 18.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 476,
+      "total_time_ms": 100.91,
+      "engineering_time_ms": 74.03,
+      "inference_time_ms": 20.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 477,
+      "total_time_ms": 104.61,
+      "engineering_time_ms": 77.0,
+      "inference_time_ms": 22.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 478,
+      "total_time_ms": 100.8,
+      "engineering_time_ms": 73.43,
+      "inference_time_ms": 21.43,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 479,
+      "total_time_ms": 98.32,
+      "engineering_time_ms": 69.39,
+      "inference_time_ms": 23.86,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 480,
+      "total_time_ms": 95.4,
+      "engineering_time_ms": 69.31,
+      "inference_time_ms": 20.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 481,
+      "total_time_ms": 84.9,
+      "engineering_time_ms": 44.39,
+      "inference_time_ms": 34.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 482,
+      "total_time_ms": 114.52,
+      "engineering_time_ms": 86.1,
+      "inference_time_ms": 22.79,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 483,
+      "total_time_ms": 100.66,
+      "engineering_time_ms": 74.12,
+      "inference_time_ms": 21.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 484,
+      "total_time_ms": 102.92,
+      "engineering_time_ms": 77.18,
+      "inference_time_ms": 19.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 485,
+      "total_time_ms": 69.64,
+      "engineering_time_ms": 44.83,
+      "inference_time_ms": 19.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 486,
+      "total_time_ms": 91.24,
+      "engineering_time_ms": 65.34,
+      "inference_time_ms": 20.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 487,
+      "total_time_ms": 71.34,
+      "engineering_time_ms": 43.88,
+      "inference_time_ms": 22.14,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 488,
+      "total_time_ms": 94.35,
+      "engineering_time_ms": 68.26,
+      "inference_time_ms": 20.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 489,
+      "total_time_ms": 107.96,
+      "engineering_time_ms": 72.87,
+      "inference_time_ms": 29.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 490,
+      "total_time_ms": 94.71,
+      "engineering_time_ms": 68.46,
+      "inference_time_ms": 20.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 491,
+      "total_time_ms": 97.33,
+      "engineering_time_ms": 71.33,
+      "inference_time_ms": 20.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 492,
+      "total_time_ms": 102.75,
+      "engineering_time_ms": 73.87,
+      "inference_time_ms": 23.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 493,
+      "total_time_ms": 71.27,
+      "engineering_time_ms": 45.85,
+      "inference_time_ms": 19.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 494,
+      "total_time_ms": 105.06,
+      "engineering_time_ms": 75.67,
+      "inference_time_ms": 23.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 495,
+      "total_time_ms": 100.55,
+      "engineering_time_ms": 71.06,
+      "inference_time_ms": 23.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 496,
+      "total_time_ms": 77.58,
+      "engineering_time_ms": 52.07,
+      "inference_time_ms": 20.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 497,
+      "total_time_ms": 81.88,
+      "engineering_time_ms": 50.1,
+      "inference_time_ms": 26.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 498,
+      "total_time_ms": 99.07,
+      "engineering_time_ms": 73.02,
+      "inference_time_ms": 20.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 499,
+      "total_time_ms": 96.96,
+      "engineering_time_ms": 70.96,
+      "inference_time_ms": 20.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 500,
+      "total_time_ms": 108.93,
+      "engineering_time_ms": 78.77,
+      "inference_time_ms": 24.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 501,
+      "total_time_ms": 100.47,
+      "engineering_time_ms": 74.45,
+      "inference_time_ms": 20.77,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 502,
+      "total_time_ms": 95.1,
+      "engineering_time_ms": 67.51,
+      "inference_time_ms": 20.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 503,
+      "total_time_ms": 99.66,
+      "engineering_time_ms": 73.01,
+      "inference_time_ms": 20.38,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 504,
+      "total_time_ms": 104.71,
+      "engineering_time_ms": 72.33,
+      "inference_time_ms": 25.99,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 505,
+      "total_time_ms": 105.04,
+      "engineering_time_ms": 75.24,
+      "inference_time_ms": 24.38,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 506,
+      "total_time_ms": 76.9,
+      "engineering_time_ms": 44.98,
+      "inference_time_ms": 25.62,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 507,
+      "total_time_ms": 70.44,
+      "engineering_time_ms": 45.7,
+      "inference_time_ms": 19.5,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 508,
+      "total_time_ms": 62.18,
+      "engineering_time_ms": 38.03,
+      "inference_time_ms": 18.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 509,
+      "total_time_ms": 95.27,
+      "engineering_time_ms": 68.51,
+      "inference_time_ms": 21.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 510,
+      "total_time_ms": 73.74,
+      "engineering_time_ms": 48.7,
+      "inference_time_ms": 19.47,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 511,
+      "total_time_ms": 66.35,
+      "engineering_time_ms": 40.97,
+      "inference_time_ms": 20.16,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 512,
+      "total_time_ms": 94.78,
+      "engineering_time_ms": 68.61,
+      "inference_time_ms": 20.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 513,
+      "total_time_ms": 92.71,
+      "engineering_time_ms": 66.2,
+      "inference_time_ms": 21.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 514,
+      "total_time_ms": 94.1,
+      "engineering_time_ms": 66.26,
+      "inference_time_ms": 22.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 515,
+      "total_time_ms": 104.2,
+      "engineering_time_ms": 78.23,
+      "inference_time_ms": 20.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 516,
+      "total_time_ms": 95.94,
+      "engineering_time_ms": 70.04,
+      "inference_time_ms": 20.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 517,
+      "total_time_ms": 96.5,
+      "engineering_time_ms": 67.19,
+      "inference_time_ms": 24.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 518,
+      "total_time_ms": 103.75,
+      "engineering_time_ms": 73.6,
+      "inference_time_ms": 24.79,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 519,
+      "total_time_ms": 100.13,
+      "engineering_time_ms": 72.54,
+      "inference_time_ms": 21.97,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 520,
+      "total_time_ms": 97.0,
+      "engineering_time_ms": 66.13,
+      "inference_time_ms": 25.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 521,
+      "total_time_ms": 106.5,
+      "engineering_time_ms": 74.82,
+      "inference_time_ms": 26.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 522,
+      "total_time_ms": 126.21,
+      "engineering_time_ms": 96.64,
+      "inference_time_ms": 24.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 523,
+      "total_time_ms": 99.68,
+      "engineering_time_ms": 70.93,
+      "inference_time_ms": 23.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 524,
+      "total_time_ms": 80.13,
+      "engineering_time_ms": 53.8,
+      "inference_time_ms": 21.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 525,
+      "total_time_ms": 111.42,
+      "engineering_time_ms": 82.27,
+      "inference_time_ms": 23.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 526,
+      "total_time_ms": 95.98,
+      "engineering_time_ms": 69.41,
+      "inference_time_ms": 21.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 527,
+      "total_time_ms": 91.83,
+      "engineering_time_ms": 63.45,
+      "inference_time_ms": 22.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 528,
+      "total_time_ms": 77.99,
+      "engineering_time_ms": 52.98,
+      "inference_time_ms": 19.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 529,
+      "total_time_ms": 102.25,
+      "engineering_time_ms": 73.43,
+      "inference_time_ms": 23.5,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 530,
+      "total_time_ms": 66.27,
+      "engineering_time_ms": 39.66,
+      "inference_time_ms": 21.41,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 531,
+      "total_time_ms": 103.62,
+      "engineering_time_ms": 74.67,
+      "inference_time_ms": 23.43,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 532,
+      "total_time_ms": 73.9,
+      "engineering_time_ms": 45.32,
+      "inference_time_ms": 22.39,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 533,
+      "total_time_ms": 96.2,
+      "engineering_time_ms": 67.34,
+      "inference_time_ms": 23.21,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 534,
+      "total_time_ms": 93.4,
+      "engineering_time_ms": 67.07,
+      "inference_time_ms": 20.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 535,
+      "total_time_ms": 93.35,
+      "engineering_time_ms": 63.91,
+      "inference_time_ms": 24.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 536,
+      "total_time_ms": 97.6,
+      "engineering_time_ms": 65.27,
+      "inference_time_ms": 27.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 537,
+      "total_time_ms": 107.01,
+      "engineering_time_ms": 78.87,
+      "inference_time_ms": 22.85,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 538,
+      "total_time_ms": 80.96,
+      "engineering_time_ms": 52.99,
+      "inference_time_ms": 22.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 539,
+      "total_time_ms": 98.16,
+      "engineering_time_ms": 71.56,
+      "inference_time_ms": 21.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 540,
+      "total_time_ms": 95.34,
+      "engineering_time_ms": 70.01,
+      "inference_time_ms": 20.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 541,
+      "total_time_ms": 100.78,
+      "engineering_time_ms": 72.36,
+      "inference_time_ms": 23.18,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 542,
+      "total_time_ms": 100.16,
+      "engineering_time_ms": 73.1,
+      "inference_time_ms": 21.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 543,
+      "total_time_ms": 105.74,
+      "engineering_time_ms": 77.76,
+      "inference_time_ms": 21.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 544,
+      "total_time_ms": 89.55,
+      "engineering_time_ms": 63.95,
+      "inference_time_ms": 20.3,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 545,
+      "total_time_ms": 93.33,
+      "engineering_time_ms": 67.7,
+      "inference_time_ms": 20.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 546,
+      "total_time_ms": 101.36,
+      "engineering_time_ms": 74.06,
+      "inference_time_ms": 21.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 547,
+      "total_time_ms": 71.49,
+      "engineering_time_ms": 42.26,
+      "inference_time_ms": 23.14,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 548,
+      "total_time_ms": 104.23,
+      "engineering_time_ms": 77.98,
+      "inference_time_ms": 20.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 549,
+      "total_time_ms": 93.03,
+      "engineering_time_ms": 66.79,
+      "inference_time_ms": 20.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 550,
+      "total_time_ms": 64.2,
+      "engineering_time_ms": 39.92,
+      "inference_time_ms": 18.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 551,
+      "total_time_ms": 62.78,
+      "engineering_time_ms": 39.06,
+      "inference_time_ms": 18.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 552,
+      "total_time_ms": 89.98,
+      "engineering_time_ms": 63.31,
+      "inference_time_ms": 21.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 553,
+      "total_time_ms": 94.55,
+      "engineering_time_ms": 67.79,
+      "inference_time_ms": 21.6,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 554,
+      "total_time_ms": 95.18,
+      "engineering_time_ms": 68.69,
+      "inference_time_ms": 21.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 555,
+      "total_time_ms": 149.64,
+      "engineering_time_ms": 84.01,
+      "inference_time_ms": 59.14,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 556,
+      "total_time_ms": 87.78,
+      "engineering_time_ms": 59.89,
+      "inference_time_ms": 22.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 557,
+      "total_time_ms": 92.09,
+      "engineering_time_ms": 66.28,
+      "inference_time_ms": 20.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 558,
+      "total_time_ms": 82.77,
+      "engineering_time_ms": 53.28,
+      "inference_time_ms": 22.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 559,
+      "total_time_ms": 103.07,
+      "engineering_time_ms": 74.21,
+      "inference_time_ms": 22.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 560,
+      "total_time_ms": 72.79,
+      "engineering_time_ms": 47.81,
+      "inference_time_ms": 19.13,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 561,
+      "total_time_ms": 103.03,
+      "engineering_time_ms": 74.82,
+      "inference_time_ms": 22.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 562,
+      "total_time_ms": 100.79,
+      "engineering_time_ms": 74.68,
+      "inference_time_ms": 20.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 563,
+      "total_time_ms": 79.51,
+      "engineering_time_ms": 54.49,
+      "inference_time_ms": 19.74,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 564,
+      "total_time_ms": 94.05,
+      "engineering_time_ms": 68.27,
+      "inference_time_ms": 20.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 565,
+      "total_time_ms": 74.03,
+      "engineering_time_ms": 45.08,
+      "inference_time_ms": 23.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 566,
+      "total_time_ms": 91.75,
+      "engineering_time_ms": 66.88,
+      "inference_time_ms": 19.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 567,
+      "total_time_ms": 101.56,
+      "engineering_time_ms": 73.89,
+      "inference_time_ms": 21.84,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 568,
+      "total_time_ms": 76.32,
+      "engineering_time_ms": 44.52,
+      "inference_time_ms": 25.89,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 569,
+      "total_time_ms": 77.95,
+      "engineering_time_ms": 52.85,
+      "inference_time_ms": 19.75,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 570,
+      "total_time_ms": 97.23,
+      "engineering_time_ms": 70.76,
+      "inference_time_ms": 21.15,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 571,
+      "total_time_ms": 97.62,
+      "engineering_time_ms": 69.14,
+      "inference_time_ms": 23.39,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 572,
+      "total_time_ms": 92.06,
+      "engineering_time_ms": 65.68,
+      "inference_time_ms": 21.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 573,
+      "total_time_ms": 80.34,
+      "engineering_time_ms": 54.47,
+      "inference_time_ms": 20.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 574,
+      "total_time_ms": 107.52,
+      "engineering_time_ms": 78.47,
+      "inference_time_ms": 23.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 575,
+      "total_time_ms": 93.39,
+      "engineering_time_ms": 66.62,
+      "inference_time_ms": 21.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 576,
+      "total_time_ms": 94.0,
+      "engineering_time_ms": 68.0,
+      "inference_time_ms": 20.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 577,
+      "total_time_ms": 67.46,
+      "engineering_time_ms": 41.93,
+      "inference_time_ms": 20.3,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 578,
+      "total_time_ms": 95.21,
+      "engineering_time_ms": 70.08,
+      "inference_time_ms": 19.86,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 579,
+      "total_time_ms": 97.92,
+      "engineering_time_ms": 68.37,
+      "inference_time_ms": 23.65,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 580,
+      "total_time_ms": 115.19,
+      "engineering_time_ms": 88.3,
+      "inference_time_ms": 21.06,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 581,
+      "total_time_ms": 103.0,
+      "engineering_time_ms": 75.12,
+      "inference_time_ms": 22.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 582,
+      "total_time_ms": 94.53,
+      "engineering_time_ms": 66.92,
+      "inference_time_ms": 22.22,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 583,
+      "total_time_ms": 95.05,
+      "engineering_time_ms": 67.39,
+      "inference_time_ms": 22.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 584,
+      "total_time_ms": 111.13,
+      "engineering_time_ms": 80.5,
+      "inference_time_ms": 25.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 585,
+      "total_time_ms": 98.99,
+      "engineering_time_ms": 70.65,
+      "inference_time_ms": 23.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 586,
+      "total_time_ms": 108.08,
+      "engineering_time_ms": 82.66,
+      "inference_time_ms": 20.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 587,
+      "total_time_ms": 99.04,
+      "engineering_time_ms": 73.05,
+      "inference_time_ms": 20.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 588,
+      "total_time_ms": 71.32,
+      "engineering_time_ms": 43.66,
+      "inference_time_ms": 21.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 589,
+      "total_time_ms": 123.27,
+      "engineering_time_ms": 96.5,
+      "inference_time_ms": 21.45,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 590,
+      "total_time_ms": 68.03,
+      "engineering_time_ms": 40.69,
+      "inference_time_ms": 19.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 591,
+      "total_time_ms": 100.06,
+      "engineering_time_ms": 72.48,
+      "inference_time_ms": 21.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 592,
+      "total_time_ms": 104.39,
+      "engineering_time_ms": 75.9,
+      "inference_time_ms": 22.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 593,
+      "total_time_ms": 104.53,
+      "engineering_time_ms": 73.76,
+      "inference_time_ms": 25.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 594,
+      "total_time_ms": 93.48,
+      "engineering_time_ms": 67.3,
+      "inference_time_ms": 20.81,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 595,
+      "total_time_ms": 75.44,
+      "engineering_time_ms": 49.18,
+      "inference_time_ms": 19.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 596,
+      "total_time_ms": 74.06,
+      "engineering_time_ms": 45.66,
+      "inference_time_ms": 22.99,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 597,
+      "total_time_ms": 73.68,
+      "engineering_time_ms": 40.47,
+      "inference_time_ms": 25.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 598,
+      "total_time_ms": 107.08,
+      "engineering_time_ms": 73.89,
+      "inference_time_ms": 27.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 599,
+      "total_time_ms": 98.67,
+      "engineering_time_ms": 70.33,
+      "inference_time_ms": 22.65,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 600,
+      "total_time_ms": 119.24,
+      "engineering_time_ms": 77.23,
+      "inference_time_ms": 35.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 601,
+      "total_time_ms": 92.09,
+      "engineering_time_ms": 66.45,
+      "inference_time_ms": 20.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 602,
+      "total_time_ms": 77.15,
+      "engineering_time_ms": 50.41,
+      "inference_time_ms": 21.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 603,
+      "total_time_ms": 89.08,
+      "engineering_time_ms": 59.67,
+      "inference_time_ms": 24.02,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 604,
+      "total_time_ms": 107.76,
+      "engineering_time_ms": 78.38,
+      "inference_time_ms": 23.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 605,
+      "total_time_ms": 124.51,
+      "engineering_time_ms": 88.88,
+      "inference_time_ms": 30.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 606,
+      "total_time_ms": 115.97,
+      "engineering_time_ms": 84.72,
+      "inference_time_ms": 25.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 607,
+      "total_time_ms": 106.85,
+      "engineering_time_ms": 76.09,
+      "inference_time_ms": 25.65,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 608,
+      "total_time_ms": 86.07,
+      "engineering_time_ms": 53.99,
+      "inference_time_ms": 26.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 609,
+      "total_time_ms": 107.59,
+      "engineering_time_ms": 73.84,
+      "inference_time_ms": 27.88,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 610,
+      "total_time_ms": 89.46,
+      "engineering_time_ms": 56.8,
+      "inference_time_ms": 27.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 611,
+      "total_time_ms": 109.66,
+      "engineering_time_ms": 78.15,
+      "inference_time_ms": 25.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 612,
+      "total_time_ms": 88.42,
+      "engineering_time_ms": 55.78,
+      "inference_time_ms": 27.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 613,
+      "total_time_ms": 95.63,
+      "engineering_time_ms": 69.32,
+      "inference_time_ms": 20.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 614,
+      "total_time_ms": 103.84,
+      "engineering_time_ms": 72.82,
+      "inference_time_ms": 25.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 615,
+      "total_time_ms": 118.22,
+      "engineering_time_ms": 81.39,
+      "inference_time_ms": 30.89,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 616,
+      "total_time_ms": 112.23,
+      "engineering_time_ms": 84.13,
+      "inference_time_ms": 22.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 617,
+      "total_time_ms": 103.6,
+      "engineering_time_ms": 76.91,
+      "inference_time_ms": 21.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 618,
+      "total_time_ms": 93.15,
+      "engineering_time_ms": 66.12,
+      "inference_time_ms": 21.75,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 619,
+      "total_time_ms": 92.21,
+      "engineering_time_ms": 65.21,
+      "inference_time_ms": 20.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 620,
+      "total_time_ms": 95.25,
+      "engineering_time_ms": 67.04,
+      "inference_time_ms": 22.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 621,
+      "total_time_ms": 94.01,
+      "engineering_time_ms": 67.77,
+      "inference_time_ms": 20.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 622,
+      "total_time_ms": 127.5,
+      "engineering_time_ms": 69.42,
+      "inference_time_ms": 51.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 623,
+      "total_time_ms": 94.59,
+      "engineering_time_ms": 66.45,
+      "inference_time_ms": 22.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 624,
+      "total_time_ms": 108.01,
+      "engineering_time_ms": 80.36,
+      "inference_time_ms": 21.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 625,
+      "total_time_ms": 108.85,
+      "engineering_time_ms": 75.55,
+      "inference_time_ms": 27.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 626,
+      "total_time_ms": 112.63,
+      "engineering_time_ms": 82.58,
+      "inference_time_ms": 23.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 627,
+      "total_time_ms": 79.66,
+      "engineering_time_ms": 53.5,
+      "inference_time_ms": 20.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 628,
+      "total_time_ms": 64.76,
+      "engineering_time_ms": 40.58,
+      "inference_time_ms": 19.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 629,
+      "total_time_ms": 63.77,
+      "engineering_time_ms": 39.33,
+      "inference_time_ms": 18.86,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 630,
+      "total_time_ms": 78.31,
+      "engineering_time_ms": 45.75,
+      "inference_time_ms": 26.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 631,
+      "total_time_ms": 84.04,
+      "engineering_time_ms": 57.81,
+      "inference_time_ms": 21.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 632,
+      "total_time_ms": 76.34,
+      "engineering_time_ms": 51.1,
+      "inference_time_ms": 19.92,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 633,
+      "total_time_ms": 89.88,
+      "engineering_time_ms": 63.95,
+      "inference_time_ms": 20.71,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 634,
+      "total_time_ms": 70.83,
+      "engineering_time_ms": 44.21,
+      "inference_time_ms": 21.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 635,
+      "total_time_ms": 77.61,
+      "engineering_time_ms": 46.52,
+      "inference_time_ms": 25.16,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 636,
+      "total_time_ms": 108.84,
+      "engineering_time_ms": 80.64,
+      "inference_time_ms": 22.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 637,
+      "total_time_ms": 99.89,
+      "engineering_time_ms": 69.9,
+      "inference_time_ms": 24.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 638,
+      "total_time_ms": 116.28,
+      "engineering_time_ms": 86.86,
+      "inference_time_ms": 23.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 639,
+      "total_time_ms": 88.32,
+      "engineering_time_ms": 57.6,
+      "inference_time_ms": 25.46,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 640,
+      "total_time_ms": 99.45,
+      "engineering_time_ms": 73.15,
+      "inference_time_ms": 21.06,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 641,
+      "total_time_ms": 64.84,
+      "engineering_time_ms": 40.22,
+      "inference_time_ms": 19.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 642,
+      "total_time_ms": 77.3,
+      "engineering_time_ms": 52.24,
+      "inference_time_ms": 19.85,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 643,
+      "total_time_ms": 103.58,
+      "engineering_time_ms": 75.33,
+      "inference_time_ms": 23.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 644,
+      "total_time_ms": 93.61,
+      "engineering_time_ms": 68.24,
+      "inference_time_ms": 20.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 645,
+      "total_time_ms": 102.28,
+      "engineering_time_ms": 74.01,
+      "inference_time_ms": 23.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 646,
+      "total_time_ms": 93.53,
+      "engineering_time_ms": 66.76,
+      "inference_time_ms": 20.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 647,
+      "total_time_ms": 91.86,
+      "engineering_time_ms": 65.52,
+      "inference_time_ms": 21.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 648,
+      "total_time_ms": 90.79,
+      "engineering_time_ms": 63.76,
+      "inference_time_ms": 21.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 649,
+      "total_time_ms": 92.72,
+      "engineering_time_ms": 65.63,
+      "inference_time_ms": 21.79,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 650,
+      "total_time_ms": 99.26,
+      "engineering_time_ms": 72.0,
+      "inference_time_ms": 21.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 651,
+      "total_time_ms": 95.69,
+      "engineering_time_ms": 69.44,
+      "inference_time_ms": 20.88,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 652,
+      "total_time_ms": 79.69,
+      "engineering_time_ms": 51.73,
+      "inference_time_ms": 22.56,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 653,
+      "total_time_ms": 101.18,
+      "engineering_time_ms": 73.14,
+      "inference_time_ms": 22.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 654,
+      "total_time_ms": 75.93,
+      "engineering_time_ms": 50.91,
+      "inference_time_ms": 19.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 655,
+      "total_time_ms": 106.61,
+      "engineering_time_ms": 75.32,
+      "inference_time_ms": 25.15,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 656,
+      "total_time_ms": 74.77,
+      "engineering_time_ms": 43.66,
+      "inference_time_ms": 25.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 657,
+      "total_time_ms": 107.64,
+      "engineering_time_ms": 79.65,
+      "inference_time_ms": 21.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 658,
+      "total_time_ms": 79.49,
+      "engineering_time_ms": 53.96,
+      "inference_time_ms": 20.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 659,
+      "total_time_ms": 64.28,
+      "engineering_time_ms": 40.25,
+      "inference_time_ms": 18.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 660,
+      "total_time_ms": 63.98,
+      "engineering_time_ms": 40.3,
+      "inference_time_ms": 18.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 661,
+      "total_time_ms": 122.84,
+      "engineering_time_ms": 72.74,
+      "inference_time_ms": 44.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 662,
+      "total_time_ms": 92.56,
+      "engineering_time_ms": 65.98,
+      "inference_time_ms": 21.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 663,
+      "total_time_ms": 118.21,
+      "engineering_time_ms": 89.25,
+      "inference_time_ms": 23.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 664,
+      "total_time_ms": 99.84,
+      "engineering_time_ms": 71.63,
+      "inference_time_ms": 22.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 665,
+      "total_time_ms": 98.61,
+      "engineering_time_ms": 71.43,
+      "inference_time_ms": 21.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 666,
+      "total_time_ms": 102.39,
+      "engineering_time_ms": 75.99,
+      "inference_time_ms": 21.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 667,
+      "total_time_ms": 81.83,
+      "engineering_time_ms": 51.61,
+      "inference_time_ms": 22.65,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 668,
+      "total_time_ms": 65.69,
+      "engineering_time_ms": 40.13,
+      "inference_time_ms": 20.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 669,
+      "total_time_ms": 67.16,
+      "engineering_time_ms": 42.31,
+      "inference_time_ms": 19.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 670,
+      "total_time_ms": 71.82,
+      "engineering_time_ms": 45.02,
+      "inference_time_ms": 21.54,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 671,
+      "total_time_ms": 92.57,
+      "engineering_time_ms": 63.16,
+      "inference_time_ms": 24.19,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 672,
+      "total_time_ms": 99.13,
+      "engineering_time_ms": 69.58,
+      "inference_time_ms": 24.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 673,
+      "total_time_ms": 94.51,
+      "engineering_time_ms": 68.57,
+      "inference_time_ms": 20.84,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 674,
+      "total_time_ms": 71.59,
+      "engineering_time_ms": 43.96,
+      "inference_time_ms": 22.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 675,
+      "total_time_ms": 101.36,
+      "engineering_time_ms": 70.02,
+      "inference_time_ms": 25.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 676,
+      "total_time_ms": 100.78,
+      "engineering_time_ms": 72.25,
+      "inference_time_ms": 23.22,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 677,
+      "total_time_ms": 66.39,
+      "engineering_time_ms": 42.01,
+      "inference_time_ms": 19.17,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 678,
+      "total_time_ms": 59.03,
+      "engineering_time_ms": 32.59,
+      "inference_time_ms": 21.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 679,
+      "total_time_ms": 79.15,
+      "engineering_time_ms": 52.71,
+      "inference_time_ms": 21.0,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 680,
+      "total_time_ms": 97.19,
+      "engineering_time_ms": 68.06,
+      "inference_time_ms": 23.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 681,
+      "total_time_ms": 90.78,
+      "engineering_time_ms": 63.58,
+      "inference_time_ms": 22.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 682,
+      "total_time_ms": 56.18,
+      "engineering_time_ms": 31.59,
+      "inference_time_ms": 19.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 683,
+      "total_time_ms": 76.12,
+      "engineering_time_ms": 50.62,
+      "inference_time_ms": 20.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 684,
+      "total_time_ms": 91.8,
+      "engineering_time_ms": 66.85,
+      "inference_time_ms": 19.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 685,
+      "total_time_ms": 94.25,
+      "engineering_time_ms": 66.56,
+      "inference_time_ms": 22.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 686,
+      "total_time_ms": 92.6,
+      "engineering_time_ms": 66.48,
+      "inference_time_ms": 20.43,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 687,
+      "total_time_ms": 94.79,
+      "engineering_time_ms": 68.4,
+      "inference_time_ms": 21.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 688,
+      "total_time_ms": 105.97,
+      "engineering_time_ms": 76.04,
+      "inference_time_ms": 24.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 689,
+      "total_time_ms": 105.47,
+      "engineering_time_ms": 77.06,
+      "inference_time_ms": 23.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 690,
+      "total_time_ms": 101.32,
+      "engineering_time_ms": 74.1,
+      "inference_time_ms": 22.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 691,
+      "total_time_ms": 102.17,
+      "engineering_time_ms": 73.53,
+      "inference_time_ms": 23.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 692,
+      "total_time_ms": 97.54,
+      "engineering_time_ms": 71.49,
+      "inference_time_ms": 20.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 693,
+      "total_time_ms": 89.03,
+      "engineering_time_ms": 63.8,
+      "inference_time_ms": 20.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 694,
+      "total_time_ms": 82.9,
+      "engineering_time_ms": 53.15,
+      "inference_time_ms": 24.14,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 695,
+      "total_time_ms": 121.44,
+      "engineering_time_ms": 91.49,
+      "inference_time_ms": 24.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 696,
+      "total_time_ms": 72.41,
+      "engineering_time_ms": 45.6,
+      "inference_time_ms": 21.09,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 697,
+      "total_time_ms": 78.94,
+      "engineering_time_ms": 50.61,
+      "inference_time_ms": 22.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 698,
+      "total_time_ms": 93.36,
+      "engineering_time_ms": 67.48,
+      "inference_time_ms": 20.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 699,
+      "total_time_ms": 75.13,
+      "engineering_time_ms": 49.32,
+      "inference_time_ms": 20.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 700,
+      "total_time_ms": 90.64,
+      "engineering_time_ms": 64.57,
+      "inference_time_ms": 20.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 701,
+      "total_time_ms": 115.43,
+      "engineering_time_ms": 82.71,
+      "inference_time_ms": 27.46,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 702,
+      "total_time_ms": 98.38,
+      "engineering_time_ms": 72.66,
+      "inference_time_ms": 20.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 703,
+      "total_time_ms": 63.31,
+      "engineering_time_ms": 39.13,
+      "inference_time_ms": 18.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 704,
+      "total_time_ms": 106.81,
+      "engineering_time_ms": 76.94,
+      "inference_time_ms": 23.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 705,
+      "total_time_ms": 99.5,
+      "engineering_time_ms": 72.39,
+      "inference_time_ms": 22.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 706,
+      "total_time_ms": 95.74,
+      "engineering_time_ms": 69.52,
+      "inference_time_ms": 20.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 707,
+      "total_time_ms": 100.85,
+      "engineering_time_ms": 72.06,
+      "inference_time_ms": 23.39,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 708,
+      "total_time_ms": 104.63,
+      "engineering_time_ms": 76.94,
+      "inference_time_ms": 22.41,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 709,
+      "total_time_ms": 85.22,
+      "engineering_time_ms": 59.11,
+      "inference_time_ms": 20.85,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 710,
+      "total_time_ms": 101.31,
+      "engineering_time_ms": 75.14,
+      "inference_time_ms": 20.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 711,
+      "total_time_ms": 91.59,
+      "engineering_time_ms": 65.91,
+      "inference_time_ms": 20.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 712,
+      "total_time_ms": 77.31,
+      "engineering_time_ms": 51.63,
+      "inference_time_ms": 20.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 713,
+      "total_time_ms": 95.01,
+      "engineering_time_ms": 67.72,
+      "inference_time_ms": 21.88,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 714,
+      "total_time_ms": 108.64,
+      "engineering_time_ms": 79.66,
+      "inference_time_ms": 23.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 715,
+      "total_time_ms": 87.78,
+      "engineering_time_ms": 61.18,
+      "inference_time_ms": 21.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 716,
+      "total_time_ms": 105.21,
+      "engineering_time_ms": 78.54,
+      "inference_time_ms": 21.19,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 717,
+      "total_time_ms": 67.41,
+      "engineering_time_ms": 43.3,
+      "inference_time_ms": 19.21,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 718,
+      "total_time_ms": 99.12,
+      "engineering_time_ms": 70.56,
+      "inference_time_ms": 22.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 719,
+      "total_time_ms": 112.97,
+      "engineering_time_ms": 79.56,
+      "inference_time_ms": 27.86,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 720,
+      "total_time_ms": 76.38,
+      "engineering_time_ms": 50.83,
+      "inference_time_ms": 20.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 721,
+      "total_time_ms": 93.57,
+      "engineering_time_ms": 66.8,
+      "inference_time_ms": 21.38,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 722,
+      "total_time_ms": 71.96,
+      "engineering_time_ms": 47.14,
+      "inference_time_ms": 19.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 723,
+      "total_time_ms": 94.33,
+      "engineering_time_ms": 68.18,
+      "inference_time_ms": 20.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 724,
+      "total_time_ms": 93.53,
+      "engineering_time_ms": 66.8,
+      "inference_time_ms": 21.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 725,
+      "total_time_ms": 101.59,
+      "engineering_time_ms": 72.93,
+      "inference_time_ms": 22.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 726,
+      "total_time_ms": 102.21,
+      "engineering_time_ms": 75.14,
+      "inference_time_ms": 21.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 727,
+      "total_time_ms": 103.92,
+      "engineering_time_ms": 75.46,
+      "inference_time_ms": 22.19,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 728,
+      "total_time_ms": 127.99,
+      "engineering_time_ms": 73.39,
+      "inference_time_ms": 49.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 729,
+      "total_time_ms": 94.1,
+      "engineering_time_ms": 68.34,
+      "inference_time_ms": 20.63,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 730,
+      "total_time_ms": 64.36,
+      "engineering_time_ms": 40.36,
+      "inference_time_ms": 18.65,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 731,
+      "total_time_ms": 95.28,
+      "engineering_time_ms": 66.57,
+      "inference_time_ms": 23.19,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 732,
+      "total_time_ms": 99.29,
+      "engineering_time_ms": 69.5,
+      "inference_time_ms": 23.48,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 733,
+      "total_time_ms": 72.48,
+      "engineering_time_ms": 47.89,
+      "inference_time_ms": 19.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 734,
+      "total_time_ms": 94.34,
+      "engineering_time_ms": 67.01,
+      "inference_time_ms": 22.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 735,
+      "total_time_ms": 93.91,
+      "engineering_time_ms": 64.05,
+      "inference_time_ms": 24.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 736,
+      "total_time_ms": 100.12,
+      "engineering_time_ms": 71.73,
+      "inference_time_ms": 23.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 737,
+      "total_time_ms": 106.75,
+      "engineering_time_ms": 70.25,
+      "inference_time_ms": 31.09,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 738,
+      "total_time_ms": 95.89,
+      "engineering_time_ms": 69.59,
+      "inference_time_ms": 20.9,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 739,
+      "total_time_ms": 70.28,
+      "engineering_time_ms": 43.31,
+      "inference_time_ms": 21.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 740,
+      "total_time_ms": 99.16,
+      "engineering_time_ms": 71.53,
+      "inference_time_ms": 22.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 741,
+      "total_time_ms": 81.8,
+      "engineering_time_ms": 54.58,
+      "inference_time_ms": 22.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 742,
+      "total_time_ms": 100.78,
+      "engineering_time_ms": 72.82,
+      "inference_time_ms": 22.71,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 743,
+      "total_time_ms": 93.56,
+      "engineering_time_ms": 64.09,
+      "inference_time_ms": 23.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 744,
+      "total_time_ms": 74.68,
+      "engineering_time_ms": 47.15,
+      "inference_time_ms": 22.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 745,
+      "total_time_ms": 102.09,
+      "engineering_time_ms": 74.83,
+      "inference_time_ms": 22.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 746,
+      "total_time_ms": 67.78,
+      "engineering_time_ms": 42.97,
+      "inference_time_ms": 19.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 747,
+      "total_time_ms": 91.55,
+      "engineering_time_ms": 65.81,
+      "inference_time_ms": 20.36,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 748,
+      "total_time_ms": 80.93,
+      "engineering_time_ms": 52.68,
+      "inference_time_ms": 22.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 749,
+      "total_time_ms": 98.7,
+      "engineering_time_ms": 69.46,
+      "inference_time_ms": 23.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 750,
+      "total_time_ms": 115.96,
+      "engineering_time_ms": 82.22,
+      "inference_time_ms": 28.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 751,
+      "total_time_ms": 81.78,
+      "engineering_time_ms": 54.64,
+      "inference_time_ms": 21.85,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 752,
+      "total_time_ms": 77.31,
+      "engineering_time_ms": 49.65,
+      "inference_time_ms": 22.1,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 753,
+      "total_time_ms": 108.82,
+      "engineering_time_ms": 80.99,
+      "inference_time_ms": 22.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 754,
+      "total_time_ms": 90.88,
+      "engineering_time_ms": 65.26,
+      "inference_time_ms": 19.99,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 755,
+      "total_time_ms": 90.7,
+      "engineering_time_ms": 64.46,
+      "inference_time_ms": 20.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 756,
+      "total_time_ms": 98.84,
+      "engineering_time_ms": 72.02,
+      "inference_time_ms": 21.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 757,
+      "total_time_ms": 90.8,
+      "engineering_time_ms": 64.62,
+      "inference_time_ms": 20.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 758,
+      "total_time_ms": 94.28,
+      "engineering_time_ms": 67.93,
+      "inference_time_ms": 21.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 759,
+      "total_time_ms": 96.5,
+      "engineering_time_ms": 71.13,
+      "inference_time_ms": 20.22,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 760,
+      "total_time_ms": 95.36,
+      "engineering_time_ms": 67.18,
+      "inference_time_ms": 22.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 761,
+      "total_time_ms": 66.51,
+      "engineering_time_ms": 41.47,
+      "inference_time_ms": 19.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 762,
+      "total_time_ms": 103.5,
+      "engineering_time_ms": 72.81,
+      "inference_time_ms": 25.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 763,
+      "total_time_ms": 107.2,
+      "engineering_time_ms": 74.03,
+      "inference_time_ms": 27.99,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 764,
+      "total_time_ms": 100.39,
+      "engineering_time_ms": 72.41,
+      "inference_time_ms": 22.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 765,
+      "total_time_ms": 86.08,
+      "engineering_time_ms": 56.84,
+      "inference_time_ms": 23.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 766,
+      "total_time_ms": 108.37,
+      "engineering_time_ms": 76.26,
+      "inference_time_ms": 26.79,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 767,
+      "total_time_ms": 94.88,
+      "engineering_time_ms": 68.42,
+      "inference_time_ms": 21.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 768,
+      "total_time_ms": 78.41,
+      "engineering_time_ms": 52.83,
+      "inference_time_ms": 20.36,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 769,
+      "total_time_ms": 99.63,
+      "engineering_time_ms": 72.47,
+      "inference_time_ms": 22.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 770,
+      "total_time_ms": 101.87,
+      "engineering_time_ms": 74.44,
+      "inference_time_ms": 22.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 771,
+      "total_time_ms": 98.53,
+      "engineering_time_ms": 72.81,
+      "inference_time_ms": 20.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 772,
+      "total_time_ms": 96.69,
+      "engineering_time_ms": 67.13,
+      "inference_time_ms": 24.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 773,
+      "total_time_ms": 95.72,
+      "engineering_time_ms": 67.53,
+      "inference_time_ms": 22.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 774,
+      "total_time_ms": 91.26,
+      "engineering_time_ms": 59.16,
+      "inference_time_ms": 26.71,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 775,
+      "total_time_ms": 71.9,
+      "engineering_time_ms": 44.28,
+      "inference_time_ms": 22.14,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 776,
+      "total_time_ms": 97.96,
+      "engineering_time_ms": 69.87,
+      "inference_time_ms": 22.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 777,
+      "total_time_ms": 85.2,
+      "engineering_time_ms": 55.8,
+      "inference_time_ms": 24.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 778,
+      "total_time_ms": 100.15,
+      "engineering_time_ms": 69.19,
+      "inference_time_ms": 25.7,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 779,
+      "total_time_ms": 66.75,
+      "engineering_time_ms": 41.88,
+      "inference_time_ms": 19.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 780,
+      "total_time_ms": 76.81,
+      "engineering_time_ms": 50.47,
+      "inference_time_ms": 21.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 781,
+      "total_time_ms": 101.48,
+      "engineering_time_ms": 74.6,
+      "inference_time_ms": 21.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 782,
+      "total_time_ms": 75.69,
+      "engineering_time_ms": 50.21,
+      "inference_time_ms": 20.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 783,
+      "total_time_ms": 95.97,
+      "engineering_time_ms": 68.75,
+      "inference_time_ms": 21.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 784,
+      "total_time_ms": 82.93,
+      "engineering_time_ms": 56.97,
+      "inference_time_ms": 20.55,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 785,
+      "total_time_ms": 96.51,
+      "engineering_time_ms": 70.38,
+      "inference_time_ms": 20.98,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 786,
+      "total_time_ms": 97.23,
+      "engineering_time_ms": 69.42,
+      "inference_time_ms": 22.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 787,
+      "total_time_ms": 110.77,
+      "engineering_time_ms": 79.67,
+      "inference_time_ms": 24.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 788,
+      "total_time_ms": 89.11,
+      "engineering_time_ms": 62.78,
+      "inference_time_ms": 20.99,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 789,
+      "total_time_ms": 94.29,
+      "engineering_time_ms": 64.2,
+      "inference_time_ms": 23.6,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 790,
+      "total_time_ms": 98.2,
+      "engineering_time_ms": 71.05,
+      "inference_time_ms": 21.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 791,
+      "total_time_ms": 80.7,
+      "engineering_time_ms": 55.35,
+      "inference_time_ms": 20.05,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 792,
+      "total_time_ms": 95.44,
+      "engineering_time_ms": 69.06,
+      "inference_time_ms": 21.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 793,
+      "total_time_ms": 104.03,
+      "engineering_time_ms": 77.48,
+      "inference_time_ms": 21.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 794,
+      "total_time_ms": 76.1,
+      "engineering_time_ms": 46.83,
+      "inference_time_ms": 24.0,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 795,
+      "total_time_ms": 129.68,
+      "engineering_time_ms": 70.86,
+      "inference_time_ms": 52.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 796,
+      "total_time_ms": 95.43,
+      "engineering_time_ms": 68.02,
+      "inference_time_ms": 22.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 797,
+      "total_time_ms": 95.68,
+      "engineering_time_ms": 67.73,
+      "inference_time_ms": 22.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 798,
+      "total_time_ms": 96.12,
+      "engineering_time_ms": 69.36,
+      "inference_time_ms": 21.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 799,
+      "total_time_ms": 72.4,
+      "engineering_time_ms": 44.14,
+      "inference_time_ms": 22.87,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 800,
+      "total_time_ms": 122.27,
+      "engineering_time_ms": 83.0,
+      "inference_time_ms": 30.17,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 801,
+      "total_time_ms": 118.81,
+      "engineering_time_ms": 90.26,
+      "inference_time_ms": 23.02,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 802,
+      "total_time_ms": 107.42,
+      "engineering_time_ms": 77.17,
+      "inference_time_ms": 23.24,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 803,
+      "total_time_ms": 109.18,
+      "engineering_time_ms": 80.39,
+      "inference_time_ms": 22.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 804,
+      "total_time_ms": 115.5,
+      "engineering_time_ms": 72.17,
+      "inference_time_ms": 35.36,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 805,
+      "total_time_ms": 118.44,
+      "engineering_time_ms": 79.09,
+      "inference_time_ms": 30.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 806,
+      "total_time_ms": 144.36,
+      "engineering_time_ms": 90.54,
+      "inference_time_ms": 33.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 807,
+      "total_time_ms": 136.3,
+      "engineering_time_ms": 101.37,
+      "inference_time_ms": 29.45,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 808,
+      "total_time_ms": 125.28,
+      "engineering_time_ms": 85.36,
+      "inference_time_ms": 33.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 809,
+      "total_time_ms": 105.28,
+      "engineering_time_ms": 60.95,
+      "inference_time_ms": 36.19,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 810,
+      "total_time_ms": 117.16,
+      "engineering_time_ms": 82.89,
+      "inference_time_ms": 26.97,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 811,
+      "total_time_ms": 106.06,
+      "engineering_time_ms": 80.89,
+      "inference_time_ms": 20.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 812,
+      "total_time_ms": 100.98,
+      "engineering_time_ms": 72.57,
+      "inference_time_ms": 22.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 813,
+      "total_time_ms": 94.38,
+      "engineering_time_ms": 68.36,
+      "inference_time_ms": 20.7,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 814,
+      "total_time_ms": 91.86,
+      "engineering_time_ms": 65.79,
+      "inference_time_ms": 20.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 815,
+      "total_time_ms": 101.88,
+      "engineering_time_ms": 75.33,
+      "inference_time_ms": 21.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 816,
+      "total_time_ms": 92.72,
+      "engineering_time_ms": 66.79,
+      "inference_time_ms": 20.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 817,
+      "total_time_ms": 83.94,
+      "engineering_time_ms": 55.17,
+      "inference_time_ms": 21.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 818,
+      "total_time_ms": 100.37,
+      "engineering_time_ms": 74.35,
+      "inference_time_ms": 20.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 819,
+      "total_time_ms": 89.54,
+      "engineering_time_ms": 62.94,
+      "inference_time_ms": 21.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 820,
+      "total_time_ms": 85.02,
+      "engineering_time_ms": 54.46,
+      "inference_time_ms": 24.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 821,
+      "total_time_ms": 96.11,
+      "engineering_time_ms": 66.86,
+      "inference_time_ms": 23.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 822,
+      "total_time_ms": 101.17,
+      "engineering_time_ms": 73.15,
+      "inference_time_ms": 22.46,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 823,
+      "total_time_ms": 68.57,
+      "engineering_time_ms": 41.1,
+      "inference_time_ms": 20.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 824,
+      "total_time_ms": 100.81,
+      "engineering_time_ms": 74.24,
+      "inference_time_ms": 20.97,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 825,
+      "total_time_ms": 83.17,
+      "engineering_time_ms": 53.53,
+      "inference_time_ms": 23.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 826,
+      "total_time_ms": 95.25,
+      "engineering_time_ms": 69.85,
+      "inference_time_ms": 20.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 827,
+      "total_time_ms": 98.6,
+      "engineering_time_ms": 71.47,
+      "inference_time_ms": 21.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 828,
+      "total_time_ms": 62.8,
+      "engineering_time_ms": 38.28,
+      "inference_time_ms": 19.28,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 829,
+      "total_time_ms": 91.65,
+      "engineering_time_ms": 65.36,
+      "inference_time_ms": 20.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 830,
+      "total_time_ms": 94.16,
+      "engineering_time_ms": 69.29,
+      "inference_time_ms": 19.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 831,
+      "total_time_ms": 78.34,
+      "engineering_time_ms": 51.93,
+      "inference_time_ms": 21.27,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 832,
+      "total_time_ms": 75.17,
+      "engineering_time_ms": 50.44,
+      "inference_time_ms": 19.49,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 833,
+      "total_time_ms": 82.09,
+      "engineering_time_ms": 51.42,
+      "inference_time_ms": 24.63,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 834,
+      "total_time_ms": 99.87,
+      "engineering_time_ms": 47.35,
+      "inference_time_ms": 46.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 835,
+      "total_time_ms": 118.78,
+      "engineering_time_ms": 87.85,
+      "inference_time_ms": 24.29,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 836,
+      "total_time_ms": 100.4,
+      "engineering_time_ms": 72.35,
+      "inference_time_ms": 22.52,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 837,
+      "total_time_ms": 100.16,
+      "engineering_time_ms": 73.09,
+      "inference_time_ms": 21.83,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 838,
+      "total_time_ms": 66.69,
+      "engineering_time_ms": 42.43,
+      "inference_time_ms": 19.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 839,
+      "total_time_ms": 98.54,
+      "engineering_time_ms": 70.97,
+      "inference_time_ms": 22.13,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 840,
+      "total_time_ms": 103.4,
+      "engineering_time_ms": 75.64,
+      "inference_time_ms": 22.61,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 841,
+      "total_time_ms": 100.44,
+      "engineering_time_ms": 71.16,
+      "inference_time_ms": 23.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 842,
+      "total_time_ms": 70.0,
+      "engineering_time_ms": 45.1,
+      "inference_time_ms": 19.56,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 843,
+      "total_time_ms": 108.28,
+      "engineering_time_ms": 76.71,
+      "inference_time_ms": 24.53,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 844,
+      "total_time_ms": 82.44,
+      "engineering_time_ms": 56.37,
+      "inference_time_ms": 20.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 845,
+      "total_time_ms": 112.97,
+      "engineering_time_ms": 77.32,
+      "inference_time_ms": 30.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 846,
+      "total_time_ms": 113.73,
+      "engineering_time_ms": 81.74,
+      "inference_time_ms": 25.77,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 847,
+      "total_time_ms": 74.43,
+      "engineering_time_ms": 43.8,
+      "inference_time_ms": 25.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 848,
+      "total_time_ms": 101.6,
+      "engineering_time_ms": 74.71,
+      "inference_time_ms": 21.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 849,
+      "total_time_ms": 78.35,
+      "engineering_time_ms": 47.63,
+      "inference_time_ms": 24.6,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 850,
+      "total_time_ms": 93.76,
+      "engineering_time_ms": 67.46,
+      "inference_time_ms": 20.88,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 851,
+      "total_time_ms": 104.04,
+      "engineering_time_ms": 77.69,
+      "inference_time_ms": 21.06,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 852,
+      "total_time_ms": 95.0,
+      "engineering_time_ms": 68.07,
+      "inference_time_ms": 21.69,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 853,
+      "total_time_ms": 96.71,
+      "engineering_time_ms": 71.11,
+      "inference_time_ms": 20.36,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 854,
+      "total_time_ms": 93.53,
+      "engineering_time_ms": 66.48,
+      "inference_time_ms": 21.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 855,
+      "total_time_ms": 91.58,
+      "engineering_time_ms": 66.34,
+      "inference_time_ms": 20.06,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 856,
+      "total_time_ms": 58.8,
+      "engineering_time_ms": 33.35,
+      "inference_time_ms": 19.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 857,
+      "total_time_ms": 109.04,
+      "engineering_time_ms": 75.25,
+      "inference_time_ms": 28.45,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 858,
+      "total_time_ms": 71.63,
+      "engineering_time_ms": 44.96,
+      "inference_time_ms": 21.0,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 859,
+      "total_time_ms": 106.46,
+      "engineering_time_ms": 77.3,
+      "inference_time_ms": 23.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 860,
+      "total_time_ms": 102.6,
+      "engineering_time_ms": 74.7,
+      "inference_time_ms": 22.17,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 861,
+      "total_time_ms": 96.64,
+      "engineering_time_ms": 66.45,
+      "inference_time_ms": 25.03,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 862,
+      "total_time_ms": 107.73,
+      "engineering_time_ms": 75.67,
+      "inference_time_ms": 26.66,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 863,
+      "total_time_ms": 96.0,
+      "engineering_time_ms": 69.6,
+      "inference_time_ms": 21.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 864,
+      "total_time_ms": 94.53,
+      "engineering_time_ms": 68.23,
+      "inference_time_ms": 20.8,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 865,
+      "total_time_ms": 83.13,
+      "engineering_time_ms": 58.11,
+      "inference_time_ms": 19.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 866,
+      "total_time_ms": 71.24,
+      "engineering_time_ms": 44.07,
+      "inference_time_ms": 21.94,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 867,
+      "total_time_ms": 68.63,
+      "engineering_time_ms": 42.91,
+      "inference_time_ms": 20.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 868,
+      "total_time_ms": 91.93,
+      "engineering_time_ms": 66.6,
+      "inference_time_ms": 19.9,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 869,
+      "total_time_ms": 97.65,
+      "engineering_time_ms": 70.96,
+      "inference_time_ms": 20.75,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 870,
+      "total_time_ms": 105.86,
+      "engineering_time_ms": 76.84,
+      "inference_time_ms": 23.63,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 871,
+      "total_time_ms": 95.84,
+      "engineering_time_ms": 68.28,
+      "inference_time_ms": 22.17,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 872,
+      "total_time_ms": 98.58,
+      "engineering_time_ms": 71.75,
+      "inference_time_ms": 21.62,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 873,
+      "total_time_ms": 91.46,
+      "engineering_time_ms": 65.42,
+      "inference_time_ms": 20.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 874,
+      "total_time_ms": 96.23,
+      "engineering_time_ms": 69.12,
+      "inference_time_ms": 21.74,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 875,
+      "total_time_ms": 94.28,
+      "engineering_time_ms": 63.17,
+      "inference_time_ms": 24.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 876,
+      "total_time_ms": 96.15,
+      "engineering_time_ms": 69.39,
+      "inference_time_ms": 20.86,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 877,
+      "total_time_ms": 98.73,
+      "engineering_time_ms": 72.1,
+      "inference_time_ms": 20.5,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 878,
+      "total_time_ms": 88.36,
+      "engineering_time_ms": 60.85,
+      "inference_time_ms": 22.25,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 879,
+      "total_time_ms": 81.17,
+      "engineering_time_ms": 53.91,
+      "inference_time_ms": 22.07,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 880,
+      "total_time_ms": 105.08,
+      "engineering_time_ms": 73.66,
+      "inference_time_ms": 26.19,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 881,
+      "total_time_ms": 110.92,
+      "engineering_time_ms": 78.42,
+      "inference_time_ms": 26.59,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 882,
+      "total_time_ms": 104.69,
+      "engineering_time_ms": 76.98,
+      "inference_time_ms": 22.38,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 883,
+      "total_time_ms": 110.11,
+      "engineering_time_ms": 82.67,
+      "inference_time_ms": 21.51,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 884,
+      "total_time_ms": 111.52,
+      "engineering_time_ms": 79.21,
+      "inference_time_ms": 27.02,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 885,
+      "total_time_ms": 101.77,
+      "engineering_time_ms": 74.56,
+      "inference_time_ms": 21.5,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 886,
+      "total_time_ms": 97.49,
+      "engineering_time_ms": 71.36,
+      "inference_time_ms": 21.0,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 887,
+      "total_time_ms": 106.57,
+      "engineering_time_ms": 79.92,
+      "inference_time_ms": 21.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 888,
+      "total_time_ms": 101.63,
+      "engineering_time_ms": 74.69,
+      "inference_time_ms": 21.63,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 889,
+      "total_time_ms": 68.81,
+      "engineering_time_ms": 43.36,
+      "inference_time_ms": 20.43,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 890,
+      "total_time_ms": 94.29,
+      "engineering_time_ms": 66.33,
+      "inference_time_ms": 22.54,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 891,
+      "total_time_ms": 101.13,
+      "engineering_time_ms": 70.8,
+      "inference_time_ms": 23.77,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 892,
+      "total_time_ms": 114.85,
+      "engineering_time_ms": 87.2,
+      "inference_time_ms": 22.17,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 893,
+      "total_time_ms": 87.44,
+      "engineering_time_ms": 59.63,
+      "inference_time_ms": 22.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 894,
+      "total_time_ms": 98.54,
+      "engineering_time_ms": 70.02,
+      "inference_time_ms": 22.74,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 895,
+      "total_time_ms": 102.7,
+      "engineering_time_ms": 74.05,
+      "inference_time_ms": 23.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 896,
+      "total_time_ms": 94.84,
+      "engineering_time_ms": 66.94,
+      "inference_time_ms": 21.84,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 897,
+      "total_time_ms": 103.64,
+      "engineering_time_ms": 72.53,
+      "inference_time_ms": 26.3,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 898,
+      "total_time_ms": 84.77,
+      "engineering_time_ms": 58.43,
+      "inference_time_ms": 21.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 899,
+      "total_time_ms": 103.97,
+      "engineering_time_ms": 73.49,
+      "inference_time_ms": 24.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 900,
+      "total_time_ms": 99.53,
+      "engineering_time_ms": 71.78,
+      "inference_time_ms": 22.5,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 901,
+      "total_time_ms": 127.0,
+      "engineering_time_ms": 97.42,
+      "inference_time_ms": 24.17,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 902,
+      "total_time_ms": 106.75,
+      "engineering_time_ms": 79.35,
+      "inference_time_ms": 20.6,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 903,
+      "total_time_ms": 67.34,
+      "engineering_time_ms": 42.16,
+      "inference_time_ms": 19.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 904,
+      "total_time_ms": 102.84,
+      "engineering_time_ms": 73.7,
+      "inference_time_ms": 23.59,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 905,
+      "total_time_ms": 118.91,
+      "engineering_time_ms": 85.65,
+      "inference_time_ms": 27.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 906,
+      "total_time_ms": 107.89,
+      "engineering_time_ms": 78.4,
+      "inference_time_ms": 23.91,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 907,
+      "total_time_ms": 101.31,
+      "engineering_time_ms": 74.76,
+      "inference_time_ms": 21.31,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 908,
+      "total_time_ms": 94.09,
+      "engineering_time_ms": 67.36,
+      "inference_time_ms": 21.51,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 909,
+      "total_time_ms": 98.13,
+      "engineering_time_ms": 68.78,
+      "inference_time_ms": 23.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 910,
+      "total_time_ms": 102.91,
+      "engineering_time_ms": 75.48,
+      "inference_time_ms": 22.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 911,
+      "total_time_ms": 104.37,
+      "engineering_time_ms": 77.28,
+      "inference_time_ms": 22.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 912,
+      "total_time_ms": 116.67,
+      "engineering_time_ms": 81.94,
+      "inference_time_ms": 27.41,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 913,
+      "total_time_ms": 97.4,
+      "engineering_time_ms": 70.97,
+      "inference_time_ms": 20.17,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 914,
+      "total_time_ms": 94.56,
+      "engineering_time_ms": 68.64,
+      "inference_time_ms": 20.81,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 915,
+      "total_time_ms": 101.25,
+      "engineering_time_ms": 74.11,
+      "inference_time_ms": 21.96,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 916,
+      "total_time_ms": 110.76,
+      "engineering_time_ms": 78.65,
+      "inference_time_ms": 26.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 917,
+      "total_time_ms": 109.56,
+      "engineering_time_ms": 73.43,
+      "inference_time_ms": 28.74,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 918,
+      "total_time_ms": 129.62,
+      "engineering_time_ms": 90.63,
+      "inference_time_ms": 33.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 919,
+      "total_time_ms": 104.33,
+      "engineering_time_ms": 75.26,
+      "inference_time_ms": 23.81,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 920,
+      "total_time_ms": 74.98,
+      "engineering_time_ms": 45.63,
+      "inference_time_ms": 22.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 921,
+      "total_time_ms": 107.07,
+      "engineering_time_ms": 79.37,
+      "inference_time_ms": 22.4,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 922,
+      "total_time_ms": 97.63,
+      "engineering_time_ms": 69.84,
+      "inference_time_ms": 22.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 923,
+      "total_time_ms": 90.02,
+      "engineering_time_ms": 63.33,
+      "inference_time_ms": 21.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 924,
+      "total_time_ms": 94.86,
+      "engineering_time_ms": 67.5,
+      "inference_time_ms": 22.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 925,
+      "total_time_ms": 95.42,
+      "engineering_time_ms": 68.56,
+      "inference_time_ms": 21.33,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 926,
+      "total_time_ms": 78.85,
+      "engineering_time_ms": 52.29,
+      "inference_time_ms": 21.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 927,
+      "total_time_ms": 112.86,
+      "engineering_time_ms": 79.64,
+      "inference_time_ms": 27.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 928,
+      "total_time_ms": 107.18,
+      "engineering_time_ms": 79.97,
+      "inference_time_ms": 21.95,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 929,
+      "total_time_ms": 104.7,
+      "engineering_time_ms": 76.16,
+      "inference_time_ms": 23.3,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 930,
+      "total_time_ms": 95.45,
+      "engineering_time_ms": 68.78,
+      "inference_time_ms": 20.62,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 931,
+      "total_time_ms": 82.45,
+      "engineering_time_ms": 54.48,
+      "inference_time_ms": 22.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 932,
+      "total_time_ms": 86.85,
+      "engineering_time_ms": 55.59,
+      "inference_time_ms": 23.43,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 933,
+      "total_time_ms": 99.27,
+      "engineering_time_ms": 73.8,
+      "inference_time_ms": 20.23,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 934,
+      "total_time_ms": 101.56,
+      "engineering_time_ms": 51.44,
+      "inference_time_ms": 44.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 935,
+      "total_time_ms": 81.98,
+      "engineering_time_ms": 53.13,
+      "inference_time_ms": 22.67,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 936,
+      "total_time_ms": 66.49,
+      "engineering_time_ms": 41.3,
+      "inference_time_ms": 19.93,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 937,
+      "total_time_ms": 68.01,
+      "engineering_time_ms": 38.99,
+      "inference_time_ms": 23.65,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 938,
+      "total_time_ms": 105.28,
+      "engineering_time_ms": 72.08,
+      "inference_time_ms": 27.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 939,
+      "total_time_ms": 119.71,
+      "engineering_time_ms": 80.45,
+      "inference_time_ms": 32.37,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 940,
+      "total_time_ms": 98.14,
+      "engineering_time_ms": 68.37,
+      "inference_time_ms": 24.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 941,
+      "total_time_ms": 113.73,
+      "engineering_time_ms": 79.07,
+      "inference_time_ms": 28.73,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 942,
+      "total_time_ms": 96.57,
+      "engineering_time_ms": 69.06,
+      "inference_time_ms": 22.11,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 943,
+      "total_time_ms": 99.46,
+      "engineering_time_ms": 67.05,
+      "inference_time_ms": 27.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 944,
+      "total_time_ms": 94.81,
+      "engineering_time_ms": 67.99,
+      "inference_time_ms": 21.6,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 945,
+      "total_time_ms": 101.9,
+      "engineering_time_ms": 73.34,
+      "inference_time_ms": 23.41,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 946,
+      "total_time_ms": 112.84,
+      "engineering_time_ms": 82.95,
+      "inference_time_ms": 24.7,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 947,
+      "total_time_ms": 107.79,
+      "engineering_time_ms": 83.34,
+      "inference_time_ms": 19.34,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 948,
+      "total_time_ms": 107.24,
+      "engineering_time_ms": 76.12,
+      "inference_time_ms": 25.85,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 949,
+      "total_time_ms": 104.1,
+      "engineering_time_ms": 73.78,
+      "inference_time_ms": 24.06,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 950,
+      "total_time_ms": 95.9,
+      "engineering_time_ms": 67.89,
+      "inference_time_ms": 22.58,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 951,
+      "total_time_ms": 82.48,
+      "engineering_time_ms": 56.0,
+      "inference_time_ms": 21.36,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 952,
+      "total_time_ms": 101.23,
+      "engineering_time_ms": 71.56,
+      "inference_time_ms": 23.08,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 953,
+      "total_time_ms": 108.02,
+      "engineering_time_ms": 73.72,
+      "inference_time_ms": 27.11,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 954,
+      "total_time_ms": 99.68,
+      "engineering_time_ms": 73.6,
+      "inference_time_ms": 20.68,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 955,
+      "total_time_ms": 60.61,
+      "engineering_time_ms": 36.38,
+      "inference_time_ms": 18.84,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 956,
+      "total_time_ms": 92.9,
+      "engineering_time_ms": 65.92,
+      "inference_time_ms": 21.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 957,
+      "total_time_ms": 93.54,
+      "engineering_time_ms": 66.0,
+      "inference_time_ms": 22.35,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 958,
+      "total_time_ms": 77.82,
+      "engineering_time_ms": 50.83,
+      "inference_time_ms": 21.78,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 959,
+      "total_time_ms": 97.81,
+      "engineering_time_ms": 68.89,
+      "inference_time_ms": 23.71,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 960,
+      "total_time_ms": 119.26,
+      "engineering_time_ms": 85.04,
+      "inference_time_ms": 29.02,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 961,
+      "total_time_ms": 104.39,
+      "engineering_time_ms": 76.81,
+      "inference_time_ms": 22.14,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 962,
+      "total_time_ms": 107.31,
+      "engineering_time_ms": 79.77,
+      "inference_time_ms": 22.3,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 963,
+      "total_time_ms": 87.27,
+      "engineering_time_ms": 59.11,
+      "inference_time_ms": 22.77,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 964,
+      "total_time_ms": 110.25,
+      "engineering_time_ms": 78.25,
+      "inference_time_ms": 26.12,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 965,
+      "total_time_ms": 98.32,
+      "engineering_time_ms": 69.26,
+      "inference_time_ms": 23.22,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 966,
+      "total_time_ms": 94.82,
+      "engineering_time_ms": 66.19,
+      "inference_time_ms": 22.02,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 967,
+      "total_time_ms": 97.23,
+      "engineering_time_ms": 70.8,
+      "inference_time_ms": 21.15,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 968,
+      "total_time_ms": 92.59,
+      "engineering_time_ms": 65.02,
+      "inference_time_ms": 22.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 969,
+      "total_time_ms": 98.8,
+      "engineering_time_ms": 72.76,
+      "inference_time_ms": 20.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 970,
+      "total_time_ms": 67.52,
+      "engineering_time_ms": 42.68,
+      "inference_time_ms": 19.32,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 971,
+      "total_time_ms": 94.97,
+      "engineering_time_ms": 67.83,
+      "inference_time_ms": 21.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 972,
+      "total_time_ms": 64.74,
+      "engineering_time_ms": 38.84,
+      "inference_time_ms": 20.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 973,
+      "total_time_ms": 97.97,
+      "engineering_time_ms": 71.66,
+      "inference_time_ms": 20.97,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 974,
+      "total_time_ms": 97.02,
+      "engineering_time_ms": 69.3,
+      "inference_time_ms": 22.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 975,
+      "total_time_ms": 81.06,
+      "engineering_time_ms": 54.34,
+      "inference_time_ms": 21.15,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 976,
+      "total_time_ms": 106.21,
+      "engineering_time_ms": 77.72,
+      "inference_time_ms": 22.45,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 977,
+      "total_time_ms": 119.02,
+      "engineering_time_ms": 90.91,
+      "inference_time_ms": 22.86,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 978,
+      "total_time_ms": 94.37,
+      "engineering_time_ms": 68.02,
+      "inference_time_ms": 21.14,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 979,
+      "total_time_ms": 82.83,
+      "engineering_time_ms": 53.89,
+      "inference_time_ms": 22.44,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 980,
+      "total_time_ms": 93.89,
+      "engineering_time_ms": 67.37,
+      "inference_time_ms": 21.16,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 981,
+      "total_time_ms": 75.12,
+      "engineering_time_ms": 49.73,
+      "inference_time_ms": 20.2,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 982,
+      "total_time_ms": 98.1,
+      "engineering_time_ms": 69.98,
+      "inference_time_ms": 22.82,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 983,
+      "total_time_ms": 69.12,
+      "engineering_time_ms": 40.04,
+      "inference_time_ms": 23.64,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 984,
+      "total_time_ms": 83.01,
+      "engineering_time_ms": 57.1,
+      "inference_time_ms": 20.69,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 985,
+      "total_time_ms": 93.21,
+      "engineering_time_ms": 65.15,
+      "inference_time_ms": 22.76,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 986,
+      "total_time_ms": 96.52,
+      "engineering_time_ms": 65.57,
+      "inference_time_ms": 25.21,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 987,
+      "total_time_ms": 98.02,
+      "engineering_time_ms": 71.18,
+      "inference_time_ms": 21.57,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 988,
+      "total_time_ms": 131.55,
+      "engineering_time_ms": 91.94,
+      "inference_time_ms": 34.04,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 989,
+      "total_time_ms": 93.94,
+      "engineering_time_ms": 64.66,
+      "inference_time_ms": 23.26,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 990,
+      "total_time_ms": 81.46,
+      "engineering_time_ms": 50.65,
+      "inference_time_ms": 25.47,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 991,
+      "total_time_ms": 98.02,
+      "engineering_time_ms": 68.24,
+      "inference_time_ms": 23.42,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 992,
+      "total_time_ms": 80.24,
+      "engineering_time_ms": 53.02,
+      "inference_time_ms": 22.02,
+      "prediction": "FRAUD"
+    },
+    {
+      "transaction_idx": 993,
+      "total_time_ms": 113.38,
+      "engineering_time_ms": 78.8,
+      "inference_time_ms": 29.5,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 994,
+      "total_time_ms": 109.65,
+      "engineering_time_ms": 77.94,
+      "inference_time_ms": 23.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 995,
+      "total_time_ms": 71.06,
+      "engineering_time_ms": 45.59,
+      "inference_time_ms": 20.01,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 996,
+      "total_time_ms": 83.09,
+      "engineering_time_ms": 56.12,
+      "inference_time_ms": 21.65,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 997,
+      "total_time_ms": 98.71,
+      "engineering_time_ms": 71.49,
+      "inference_time_ms": 21.72,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 998,
+      "total_time_ms": 108.4,
+      "engineering_time_ms": 79.78,
+      "inference_time_ms": 22.79,
+      "prediction": "SAFE"
+    },
+    {
+      "transaction_idx": 999,
+      "total_time_ms": 67.07,
+      "engineering_time_ms": 42.61,
+      "inference_time_ms": 19.02,
+      "prediction": "FRAUD"
+    }
+  ]
+}

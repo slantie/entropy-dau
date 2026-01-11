@@ -1,0 +1,11 @@
+{
+  "total_transactions": 500,
+  "successful": 500,
+  "fraudulent": 1,
+  "safe": 499,
+  "errors": 0,
+  "fraud_rate_percent": 0.2,
+  "threshold": 0.2,
+  "models_loaded": 6,
+  "features_total": 263
+}

@@ -1,4 +1,5 @@
 // Prisma schema file
+// XGB96 Raw Feature Schema - Stores ONLY raw features for deterministic feature engineering
 // learn more: https://pris.ly/d/prisma-schema
 
 generator client {
@@ -24,65 +25,281 @@ enum RiskCategory {
   LOW
 }
 
+// Core transaction table - stores raw IEEE-CIS features
 model Transaction {
-  id        String   @id @default(uuid())
-  timestamp DateTime
+  id String @id @default(uuid())
 
-  senderAccount   BigInt
-  receiverAccount BigInt
-  amountNgn       Float
+  // Core Transaction Fields
+  TransactionID  BigInt  @unique
+  TransactionDT  BigInt // seconds since epoch
+  TransactionAmt Decimal @db.Decimal(12, 2)
+  ProductCD      String? @db.VarChar(5)
 
-  transactionType  String
-  merchantCategory String
-  location         String
-  deviceUsed       String
-  paymentChannel   String
-  fraudType        String?
-  ipGeoRegion      String
+  // Card Information
+  card1 Int?
+  card2 Int?
+  card3 Int?
+  card4 String? @db.VarChar(10)
+  card5 Int?
+  card6 String? @db.VarChar(10)
 
-  txnHour      Int
-  isWeekend    Boolean
-  isSalaryWeek Boolean
-  isNightTxn   Boolean
+  // Address & Distance
+  addr1 Int?
+  addr2 Int?
+  dist1 Float?
+  dist2 Float?
 
-  timeSinceLastTransaction  Float?
-  spendingDeviationScore    Float
-  velocityScore             Int
-  geoAnomalyScore           Float
-  bvnLinked                 Boolean
-  newDeviceTransaction      Boolean
-  senderPersona             String
-  geospatialVelocityAnomaly Boolean
+  // Email Domains
+  P_emaildomain String? @db.VarChar(50)
+  R_emaildomain String? @db.VarChar(50)
 
-  deviceSeenCount Int
-  isDeviceShared  Boolean
-  ipSeenCount     Int
-  isIpShared      Boolean
+  // Count Features (C1-C14)
+  C1  Float?
+  C2  Float?
+  C3  Float?
+  C4  Float?
+  C5  Float?
+  C6  Float?
+  C7  Float?
+  C8  Float?
+  C9  Float?
+  C10 Float?
+  C11 Float?
+  C12 Float?
+  C13 Float?
+  C14 Float?
 
-  userTxnCountTotal   Int
-  userAvgTxnAmt       Float
-  userStdTxnAmt       Float
-  userTxnFrequency24h Int
-  userTopCategory     String
+  // Time Delta Features (D1-D15)
+  D1  Float?
+  D2  Float?
+  D3  Float?
+  D4  Float?
+  D5  Float?
+  D6  Float?
+  D7  Float?
+  D8  Float?
+  D9  Float?
+  D10 Float?
+  D11 Float?
+  D12 Float?
+  D13 Float?
+  D14 Float?
+  D15 Float?
 
-  txnCountLast1h    Int
-  txnCountLast24h   Int
-  totalAmountLast1h Float
-  timeSinceLast     Float?
-  avgGapBetweenTxns Float?
+  // Match Flags (M1-M9)
+  M1 String? @db.Char(1)
+  M2 String? @db.Char(1)
+  M3 String? @db.Char(1)
+  M4 String? @db.Char(1)
+  M5 String? @db.Char(1)
+  M6 String? @db.Char(1)
+  M7 String? @db.Char(1)
+  M8 String? @db.Char(1)
+  M9 String? @db.Char(1)
 
-  merchantFraudRate Float
-  channelRiskScore  Float
-  personaFraudRisk  Float
-  locationFraudRisk Float
+  // Ground Truth
+  isFraud Boolean @default(false)
 
-  isFraud Boolean
-  status  TransactionStatus @default(PENDING)
+  // System Fields
+  status    TransactionStatus @default(PENDING)
+  createdAt DateTime          @default(now())
 
-  createdAt DateTime @default(now())
+  // Relations
+  identity  TransactionIdentity?
+  vFeatures TransactionVFeatures?
+  reviews   TransactionReview[]
+  actions   ActionLog[]
 
-  reviews TransactionReview[]
-  actions ActionLog[]
+  @@index([TransactionID])
+  @@index([TransactionDT])
+  @@index([isFraud])
+  @@index([createdAt])
+}
+
+// Identity features table - stores id_* features and device info
+model TransactionIdentity {
+  id            String @id @default(uuid())
+  transactionId String @unique
+
+  // Identity Features (id_01 - id_38)
+  id_01 Float?
+  id_02 Float?
+  id_03 Float?
+  id_04 Float?
+  id_05 Float?
+  id_06 Float?
+  id_07 Float?
+  id_08 Float?
+  id_09 Float?
+  id_10 Float?
+  id_11 Float?
+  id_12 String? @db.VarChar(10)
+  id_13 Float?
+  id_14 Float?
+  id_15 String? @db.VarChar(10)
+  id_16 String? @db.VarChar(10)
+  id_17 Float?
+  id_18 Float?
+  id_19 Float?
+  id_20 Float?
+  id_21 Float?
+  id_22 Float?
+  id_23 String? @db.VarChar(10)
+  id_24 Float?
+  id_25 Float?
+  id_26 Float?
+  id_27 String? @db.VarChar(10)
+  id_28 String? @db.VarChar(10)
+  id_29 String? @db.VarChar(10)
+  id_30 String? @db.VarChar(10)
+  id_31 String? @db.VarChar(20)
+  id_32 Float?
+  id_33 String? @db.VarChar(10)
+  id_34 String? @db.VarChar(10)
+  id_35 String? @db.VarChar(10)
+  id_36 String? @db.VarChar(10)
+  id_37 String? @db.VarChar(10)
+  id_38 String? @db.VarChar(10)
+
+  // Device Information
+  DeviceType String? @db.VarChar(20)
+  DeviceInfo String? @db.VarChar(100)
+
+  transaction Transaction @relation(fields: [transactionId], references: [id], onDelete: Cascade)
+
+  @@index([transactionId])
+}
+
+// V Features table - stores selected V columns required by XGB96
+model TransactionVFeatures {
+  id            String @id @default(uuid())
+  transactionId String @unique
+
+  // Selected V columns (only those used by XGB96 model)
+  V1   Float?
+  V3   Float?
+  V4   Float?
+  V6   Float?
+  V8   Float?
+  V11  Float?
+  V13  Float?
+  V14  Float?
+  V17  Float?
+  V20  Float?
+  V23  Float?
+  V26  Float?
+  V27  Float?
+  V30  Float?
+  V36  Float?
+  V37  Float?
+  V40  Float?
+  V41  Float?
+  V44  Float?
+  V47  Float?
+  V48  Float?
+  V54  Float?
+  V56  Float?
+  V59  Float?
+  V62  Float?
+  V65  Float?
+  V67  Float?
+  V68  Float?
+  V70  Float?
+  V76  Float?
+  V78  Float?
+  V80  Float?
+  V82  Float?
+  V86  Float?
+  V88  Float?
+  V89  Float?
+  V91  Float?
+  V107 Float?
+  V108 Float?
+  V111 Float?
+  V115 Float?
+  V117 Float?
+  V120 Float?
+  V121 Float?
+  V123 Float?
+  V124 Float?
+  V127 Float?
+  V129 Float?
+  V130 Float?
+  V136 Float?
+  V138 Float?
+  V139 Float?
+  V142 Float?
+  V147 Float?
+  V156 Float?
+  V160 Float?
+  V162 Float?
+  V165 Float?
+  V166 Float?
+  V169 Float?
+  V171 Float?
+  V173 Float?
+  V175 Float?
+  V176 Float?
+  V178 Float?
+  V180 Float?
+  V182 Float?
+  V185 Float?
+  V187 Float?
+  V188 Float?
+  V198 Float?
+  V203 Float?
+  V205 Float?
+  V207 Float?
+  V209 Float?
+  V210 Float?
+  V215 Float?
+  V218 Float?
+  V220 Float?
+  V221 Float?
+  V223 Float?
+  V224 Float?
+  V226 Float?
+  V228 Float?
+  V229 Float?
+  V234 Float?
+  V235 Float?
+  V238 Float?
+  V240 Float?
+  V250 Float?
+  V252 Float?
+  V253 Float?
+  V257 Float?
+  V258 Float?
+  V260 Float?
+  V261 Float?
+  V264 Float?
+  V266 Float?
+  V267 Float?
+  V271 Float?
+  V274 Float?
+  V277 Float?
+  V281 Float?
+  V283 Float?
+  V284 Float?
+  V285 Float?
+  V286 Float?
+  V289 Float?
+  V291 Float?
+  V294 Float?
+  V296 Float?
+  V297 Float?
+  V301 Float?
+  V303 Float?
+  V305 Float?
+  V307 Float?
+  V309 Float?
+  V310 Float?
+  V314 Float?
+  V320 Float?
+
+  transaction Transaction @relation(fields: [transactionId], references: [id], onDelete: Cascade)
+
+  @@index([transactionId])
 }
 
 model TransactionReview {

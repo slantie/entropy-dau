@@ -26,7 +26,6 @@ export default function excelIngestRoute(upload) {
       });
     } catch (err) {
       console.error("Error processing file:", err);
-      res.status(500).json({ success: false, error: err.message });
       if (!responseSent) {
         responseSent = true;
         return res.status(500).json({ success: false, error: err.message });

@@ -73,16 +73,16 @@ export function UploadExcel() {
     <div className="w-full max-w-2xl mx-auto p-4">
       <Card>
         <CardHeader>
-          <CardTitle>Excel Upload</CardTitle>
-          <CardDescription>Upload your transaction data for fraud analysis</CardDescription>
+          <CardTitle>Dataset Upload</CardTitle>
+          <CardDescription>Upload your IEEE-CIS transaction data (CSV or Excel) for fraud analysis</CardDescription>
         </CardHeader>
 
         <CardContent className="space-y-4">
           <div className="space-y-2">
-            <label className="text-sm font-medium">Select Excel File</label>
+            <label className="text-sm font-medium">Select File (CSV, XLSX, XLS)</label>
             <Input
               type="file"
-              accept=".xlsx,.xls"
+              accept=".csv,.xlsx,.xls"
               onChange={handleFileChange}
               disabled={loading}
               className="cursor-pointer"

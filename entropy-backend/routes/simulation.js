@@ -76,14 +76,47 @@ router.get("/seed", async (req, res) => {
 
     if (count === 0) return res.json([]);
 
-    const skip = Math.max(0, Math.floor(Math.random() * (count - 5)));
+    // Fetch a batch of transactions to ensure fraud distribution
+    // Target: 1 fraud per 10-15 transactions
+    const batchSize = 50; // Fetch more to have better chance of fraud
+    const skip = Math.max(0, Math.floor(Math.random() * (count - batchSize)));
 
-    const transactions = await prisma.transaction.findMany({
-      take: 1,
+    const allTransactions = await prisma.transaction.findMany({
+      take: batchSize,
       skip: skip,
     });
 
-    res.json(serializeBigInt(transactions));
+    // Separate fraud and legitimate transactions
+    const fraudTxns = allTransactions.filter((t) => t.isFraud);
+    const legitTxns = allTransactions.filter((t) => !t.isFraud);
+
+    // Build result array with distribution of 1 fraud per 10-15 rows
+    const result = [];
+    const fraudInterval = Math.floor(Math.random() * 6) + 10; // Random 10-15
+
+    let fraudIndex = 0;
+    let legitIndex = 0;
+    let txnCount = 0;
+
+    while (legitIndex < legitTxns.length || fraudIndex < fraudTxns.length) {
+      // Add fraud transaction if we've reached the interval and have fraud txns left
+      if (
+        txnCount > 0 &&
+        txnCount % fraudInterval === 0 &&
+        fraudIndex < fraudTxns.length
+      ) {
+        result.push(fraudTxns[fraudIndex++]);
+      } else if (legitIndex < legitTxns.length) {
+        // Otherwise add legitimate transaction
+        result.push(legitTxns[legitIndex++]);
+      } else if (fraudIndex < fraudTxns.length) {
+        // If no legitimate txns left, add fraud
+        result.push(fraudTxns[fraudIndex++]);
+      }
+      txnCount++;
+    }
+
+    res.json(serializeBigInt(result));
   } catch (error) {
     console.error("Simulation Seed Error:", error);
     res.status(500).json({ error: "Failed to fetch seed data" });
@@ -98,7 +131,7 @@ router.post("/analyze", async (req, res) => {
     console.log(`[Backend] Transaction fields:`, Object.keys(transactionData));
 
     let mlResult = {
-      riskScore: 0.5,
+      riskScore: Math.random(),
       prediction: "REVIEW",
       confidence: 0.0,
       top_features: [],
@@ -180,7 +213,33 @@ function generateMockScore(transactionData) {
     prediction:
       riskScore > 0.8 ? "FRAUD" : riskScore > 0.5 ? "SUSPICIOUS" : "LEGITIMATE",
     confidence: 0.75,
-    top_features: ["amount", "device_seen_count", "merchant_fraud_rate"],
+    top_features: [
+      {
+        feature: "amount_ngn",
+        value: transactionData.amountNgn || 0,
+        importance: (Math.random() * 0.3 + 0.7).toFixed(2),
+      },
+      {
+        feature: "device_seen_count",
+        value: transactionData.deviceSeenCount || 0,
+        importance: (Math.random() * 0.25 + 0.5).toFixed(2),
+      },
+      {
+        feature: "merchant_fraud_rate",
+        value: (Math.random() * 0.15).toFixed(3),
+        importance: (Math.random() * 0.2 + 0.4).toFixed(2),
+      },
+      {
+        feature: "is_device_shared",
+        value: transactionData.isDeviceShared ? "Yes" : "No",
+        importance: (Math.random() * 0.15 + 0.3).toFixed(2),
+      },
+      {
+        feature: "is_night_txn",
+        value: transactionData.isNightTxn ? "Yes" : "No",
+        importance: (Math.random() * 0.1 + 0.2).toFixed(2),
+      },
+    ],
   };
 }
 

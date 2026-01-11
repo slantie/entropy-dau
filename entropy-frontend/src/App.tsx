@@ -55,7 +55,7 @@ function AppSidebar({ activeTab, setActiveTab }: { activeTab: string; setActiveT
 }
 
 export function App() {
-  const [activeTab, setActiveTab] = useState("upload")
+  const [activeTab, setActiveTab] = useState("simulation")
 
   return (
     <SidebarProvider>
@@ -65,7 +65,7 @@ export function App() {
           {/* Header */}
           <header className="border-b sticky top-0 z-10 bg-background">
             <div className="flex items-center gap-4 px-6 py-4">
-              <SidebarTrigger className="-ml-1" />
+              <SidebarTrigger className="-ml-1" />  
               <Separator orientation="vertical" className="h-12" />
               <div>
                 <h1 className="text-xl font-bold tracking-tight">Fraud Detection</h1>
@@ -76,8 +76,8 @@ export function App() {
 
           {/* Content */}
           <main className="flex-1 overflow-auto p-8">
-            {activeTab === "upload" && <UploadExcel />}
             {activeTab === "simulation" && <SimulationDashboard />}
+            {activeTab === "upload" && <UploadExcel />}
           </main>
         </div>
       </SidebarInset>
